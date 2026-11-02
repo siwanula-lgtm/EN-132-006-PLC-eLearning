@@ -15,8 +15,15 @@ async function readMarkdown(subdir: string, filename: string, fallback: string) 
   }
 }
 
-export function getModuleContent(id: string) {
-  return readMarkdown("modules", `module-${id.padStart(2, "0")}.md`, `# ไม่พบเนื้อหาหน่วยที่ ${id}`);
+/** ใบความรู้ + แทรกตัวอย่างโจทย์ (content/examples/example-XX.md) ไว้ก่อนแบบฝึกหัดท้ายหน่วย */
+export async function getModuleContent(id: string) {
+  const num = id.padStart(2, "0");
+  const body = await readMarkdown("modules", `module-${num}.md`, `# ไม่พบเนื้อหาหน่วยที่ ${id}`);
+  const examples = await readMarkdown("examples", `example-${num}.md`, "");
+  if (!examples.trim()) return body;
+  const marker = "## แบบฝึกหัดท้ายหน่วยเรียน";
+  const at = body.indexOf(marker);
+  return at < 0 ? `${body}\n\n${examples}` : `${body.slice(0, at)}${examples.trim()}\n\n${body.slice(at)}`;
 }
 
 export function getLabContent(id: string) {

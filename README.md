@@ -73,12 +73,15 @@ npm run build && npm start
 ├── content/
 │   ├── course-info.md            ← ข้อมูลรายวิชา
 │   ├── modules/module-XX.md      ← ใบความรู้
+│   ├── examples/example-XX.md    ← ตัวอย่างโจทย์และวิธีทำ (แทรกก่อนแบบฝึกหัดอัตโนมัติ)
 │   ├── plans/plan-XX.md          ← แผนการจัดการเรียนรู้
 │   ├── labs/lab-XX.md            ← ใบงานปฏิบัติ
 │   ├── exams/pre-XX.json         ← แบบทดสอบก่อนเรียน 10 ข้อ
 │   ├── exams/post-XX.json        ← แบบทดสอบหลังเรียน 10 ข้อ
 │   └── SHEET/review_sheet_XX.html← แบบทบทวน 1 หน้า A4
 ├── public/images/book/           ← รูปประกอบจากเอกสารประกอบการสอน
+├── public/images/infographic/    ← Infographic ประกอบตัวอย่างโจทย์
+├── scripts/infographics/         ← ซอร์ส infographic (figures.py → svg/, render.mjs → PNG)
 ├── Dockerfile · docker-compose.yml
 └── CONTENT_GUIDE.md              ← คู่มือแก้ไขเนื้อหา
 ```
@@ -87,6 +90,7 @@ npm run build && npm start
 
 - **Docs-style Layout** — Sidebar + Content, Dark/Light Mode, ค้นหา (Ctrl+K), Responsive
 - **ใบความรู้** พร้อมรูปประกอบ ตาราง จุดประสงค์การสอน แบบฝึกหัดท้ายหน่วย (กดดูเฉลยได้) และบรรณานุกรม APA 7
+- **ตัวอย่างโจทย์พร้อมวิธีทำ + Infographic** — หน่วยละ 2–3 ข้อ (แสดงในหน้าใบความรู้ก่อนแบบฝึกหัด) และภาพประกอบ 19 ภาพใน `public/images/infographic/`
 - **แผนการจัดการเรียนรู้** และ **ใบงานปฏิบัติ** — พิมพ์หรือบันทึกเป็น PDF ได้
 - **แบบทดสอบก่อนเรียน/หลังเรียน** หน่วยละ 10 ข้อ 5 ตัวเลือก จับเวลา ตรวจอัตโนมัติ แสดงเฉลย และพิมพ์ผลได้ (เกณฑ์ผ่านร้อยละ 50)
 - **Review Sheet** สรุป 1 หน้า A4 ต่อหน่วย

@@ -87,6 +87,7 @@ async function main() {
   for (const id of IDS) {
     const mod = await checkMarkdown(id, `modules/module-${id}.md`);
     const plan = await checkMarkdown(id, `plans/plan-${id}.md`);
+    await checkMarkdown(id, `examples/example-${id}.md`);
     const lab = await checkMarkdown(id, `labs/lab-${id}.md`);
     const sheet = path.join(CONTENT, "SHEET", `review_sheet_${id}.html`);
     const hasSheet = await exists(sheet);

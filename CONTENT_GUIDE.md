@@ -8,6 +8,7 @@
 | ไฟล์ | หน้าที่ | แสดงที่ |
 |---|---|---|
 | `content/modules/module-XX.md` | ใบความรู้ (จุดประสงค์การสอน เนื้อหา บทสรุป แบบฝึกหัดพร้อมเฉลย บรรณานุกรม) | `/module/XX` |
+| `content/examples/example-XX.md` | ตัวอย่างโจทย์และวิธีทำ (แทรกก่อน "แบบฝึกหัดท้ายหน่วยเรียน" อัตโนมัติ) | `/module/XX` |
 | `content/plans/plan-XX.md` | แผนการจัดการเรียนรู้ | `/plan/XX` |
 | `content/labs/lab-XX.md` | สรุปแผนการสอนประจำหน่วย + ใบงานปฏิบัติ | `/lab/XX` |
 | `content/exams/pre-XX.json` | แบบทดสอบก่อนเรียน 10 ข้อ | `/exam/pre/XX` |
@@ -63,4 +64,14 @@
 
 ```bash
 npm run check   # ตรวจไฟล์ครบ, JSON แบบทดสอบ, ตัวเลือก ก–จ, การกระจายคำตอบ, รูปภาพ
+```
+
+## Infographic
+
+ภาพอยู่ที่ `public/images/infographic/*.png` สร้างจากโค้ด `scripts/infographics/figures.py` (เขียน SVG) แล้วแปลงเป็น PNG ด้วยฟอนต์ Prompt:
+
+```bash
+python3 scripts/infographics/figures.py
+npm i -D playwright && npx playwright install chromium   # ครั้งแรกครั้งเดียว
+node scripts/infographics/render.mjs
 ```
