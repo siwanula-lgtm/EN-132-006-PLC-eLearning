@@ -1,0 +1,8 @@
+services:
+  plc-elearning:
+    build: .
+    image: en-132-006-plc-elearning:latest
+    container_name: en-132-006-plc-elearning
+    ports:
+      - "3000:3000"
+    restart: unless-stopped

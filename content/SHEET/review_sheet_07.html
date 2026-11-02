@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Review Sheet 07 - การสื่อสารระหว่าง PLC กับอุปกรณ์อื่น ๆ</title>
+<link rel="stylesheet" href="sheet.css">
+</head>
+<body>
+<div class="toolbar"><button onclick="window.print()">🖨️ พิมพ์ / บันทึก PDF</button></div>
+<div class="page">
+
+  <div class="sheet-header">
+    <div>
+      <div class="title">⚙️ Review Sheet หน่วยที่ 7 — การสื่อสารระหว่าง PLC กับอุปกรณ์อื่น ๆ</div>
+      <div class="sub">EN-132-006 Programmable Logic Controller (PLC) · Communication between PLC and Other Devices</div>
+    </div>
+    <div class="meta">
+      สัปดาห์ที่ 9 · ท 2 / ป 3 ชม. · CLO2<br>
+      ใบงานปฏิบัติที่ 7
+    </div>
+  </div>
+
+  <div class="columns">
+    <div class="col">
+      <div class="section">
+        <div class="section-header"><span class="icon">📌</span> 1. สาระสำคัญ</div>
+        <div class="section-body">
+          <p>ในระบบอัตโนมัติ การสื่อสารข้อมูลของ PLC มีบทบาทสำคัญในการเชื่อมโยงระหว่างหน่วยควบคุมกับอุปกรณ์อื่นในกระบวนการผลิต การสื่อสารแบบอนุกรม RS-232 เหมาะกับการเชื่อมต่อแบบ Point-to-Point ระยะสั้นไม่เกิน 15 เมตร ส่วน RS-485 รองรับ Multi-Drop Bus สูงสุด 32 อุปกรณ์ ระยะไกลถึง 1,200 เมตร Protocol Modbus เป็นมาตรฐานเปิด (Open Protocol) ใช้หลักการ Master–Slave รองรับทั้ง Modbus RTU ผ่าน RS-485 และ Modbus TCP ผ่าน Ethernet และ V-net IoT เชื่อมต่อ PLC กับ Cloud เพื่อตรวจสอบและวิเคราะห์ข้อมูลแบบเรียลไทม์ …</p>
+        </div>
+      </div>
+      <div class="section">
+        <div class="section-header"><span class="icon">🎯</span> 2. จุดประสงค์การเรียน (ทั่วไป)</div>
+        <div class="section-body">
+          <ul class="mini"><li>อธิบายหลักการทำงานและความแตกต่างระหว่างการสื่อสารแบบ RS-232 และ RS-485</li><li>อธิบายหลักการของ Modbus Protocol ทั้งรูปแบบ RTU และ TCP</li><li>อธิบายแนวคิดของระบบ V-net IoT และการนำมาใช้ในระบบอัตโนมัติ</li><li>สามารถเลือกรูปแบบการสื่อสารที่เหมาะสมกับลักษณะงานอุตสาหกรรม</li><li>อธิบายการเชื่อมต่อ PLC กับอุปกรณ์ภายนอกผ่านพอร์ตสื่อสารต่าง ๆ ได้อย่างถูกต้อง</li></ul>
+        </div>
+      </div>
+      <div class="section">
+        <div class="section-header"><span class="icon">🧩</span> 3. หัวข้อเนื้อหาในหน่วย</div>
+        <div class="section-body">
+          <ul class="mini"><li>7.1 RS-232, RS-485</li><li>7.2 Protocol Modbus</li><li>7.3 V-net IoT</li></ul>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="section">
+        <div class="section-header"><span class="icon">📝</span> 4. บทสรุป</div>
+        <div class="section-body">
+          <p>การสื่อสารระหว่าง PLC กับอุปกรณ์อื่นทำได้หลายรูปแบบ เช่น Ethernet, RS-232 และ RS-485 โดย RS-485 รองรับการเชื่อมต่อหลายอุปกรณ์และระยะทางไกลกว่า RS-232 โปรโตคอล MODBUS ใช้แลกเปลี่ยนข้อมูลระหว่าง Master และ Slave ผ่านรีจิสเตอร์ ส่วน V-net IoT ช่วยนำข้อมูลของ PLC ขึ้นสู่ระบบ Cloud เพื่อเฝ้าสังเกตผ่านอุปกรณ์เคลื่อนที่ ผู้ใช้ต้องตั้งค่าพารามิเตอร์ให้ตรงกัน และคำนึงถึงความปลอดภัยของข้อมูล</p>
+        </div>
+      </div>
+      <div class="section">
+        <div class="section-header"><span class="icon">❓</span> 5. คำถามทบทวน (จากแบบฝึกหัดท้ายหน่วย)</div>
+        <div class="section-body">
+          <ul class="mini"><li>อธิบายความสำคัญของการสื่อสารข้อมูลในระบบอัตโนมัติ (Automation System) และบทบาทของ PLC …</li><li>อธิบายหลักการทำงานของการสื่อสารแบบอนุกรม (Serial Communication) พร้อมเปรียบเทียบลักษณะการเชื่อมต่อของ RS-232 …</li><li>จากตารางการเปรียบเทียบ RS-232 และ RS-485 จงอธิบายข้อดีและข้อจำกัดของแต่ละระบบ …</li><li>ให้นักศึกษาวาดแผนผังหรืออธิบายลำดับการเชื่อมต่อของ PLC กับอุปกรณ์ภายนอก ผ่านพอร์ต RS-232 และ RS-485 …</li><li>อธิบายหลักการสื่อสารของ Modbus Protocol ในรูปแบบ RTU และ TCP ว่ามีความแตกต่างกันอย่างไร …</li><li>อธิบายโครงสร้างของเฟรมข้อมูล (Data Frame) ในระบบ Modbus พร้อมระบุหน้าที่ของส่วนประกอบหลัก เช่น Address, …</li></ul>
+        </div>
+      </div>
+      <div class="section warn">
+        <div class="section-header"><span class="icon">⚠️</span> ข้อควรระวังด้านความปลอดภัย (ใบงานปฏิบัติ)</div>
+        <div class="section-body">
+          <ul class="mini"><li>ถอดปลั๊กแหล่งจ่ายไฟหรือกดสวิตช์ฉุกเฉินก่อนต่อ/แก้ไขสายไฟทุกครั้ง และจ่ายไฟได้เมื่อครูผู้สอนตรวจสอบแล้วเท่านั้น</li><li>ตรวจสอบแรงดันและขั้วของแหล่งจ่ายให้ตรงกับที่ระบุในคู่มือชุดฝึกก่อนจ่ายไฟ ห้ามต่อสายขณะมีไฟ</li><li>สวมรองเท้าหุ้มส้น ไม่สวมเครื่องประดับโลหะ และไม่วางของเหลวบนโต๊ะปฏิบัติงาน</li><li>ตรวจสอบขั้ว A/B ของสายสื่อสาร RS-485 และค่าพารามิเตอร์ของอุปกรณ์ให้ตรงกันก่อนเริ่มสื่อสาร</li><li>ไม่เปิดเผยรหัสผ่านหรือข้อมูลบัญชี Cloud ของกลุ่มให้ผู้อื่น</li></ul>
+        </div>
+      </div>
+      <div class="section">
+        <div class="section-header"><span class="icon">🔧</span> 6. เชื่อมโยงกับใบงานปฏิบัติที่ 7</div>
+        <div class="section-body">
+          <p><span class="accent">การสื่อสารข้อมูลระหว่าง PLC กับอุปกรณ์ภายนอก</span><br>เวลาปฏิบัติ 3 ชั่วโมง · ทำแบบทดสอบหลังเรียนหน่วยที่ 7 หลังทบทวน</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">EN-132-006 โปรแกรมเมเบิลลอจิกคอนโทรลเลอร์ · อาจารย์ศิวณุ เหล่าบุตรสา · สาขาวิชาวิศวกรรมเครื่องกลและเมคคาทรอนิกส์ มหาวิทยาลัยกาฬสินธุ์ · ภาคการศึกษาที่ 2/2568</div>
+</div>
+</body>
+</html>

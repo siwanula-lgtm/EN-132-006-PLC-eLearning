@@ -1,0 +1,289 @@
+{
+  "moduleId": "03",
+  "kind": "pre",
+  "title": "Using the PLC with GX Works3",
+  "titleTh": "การใช้งาน PLC",
+  "timeMinutes": 15,
+  "questions": [
+    {
+      "id": 1,
+      "question": "โปรแกรมใดใช้ในการเขียนโปรแกรมสำหรับ PLC ตระกูล Mitsubishi MELSEC iQ-F",
+      "choices": [
+        {
+          "key": "ก",
+          "text": "CX-Programmer"
+        },
+        {
+          "key": "ข",
+          "text": "GX Works3"
+        },
+        {
+          "key": "ค",
+          "text": "Sysmac Studio"
+        },
+        {
+          "key": "ง",
+          "text": "Studio 5000"
+        },
+        {
+          "key": "จ",
+          "text": "TIA Portal"
+        }
+      ],
+      "answer": "ข",
+      "explanation": "คำตอบที่ถูกต้องคือ ข้อ ข. GX Works3"
+    },
+    {
+      "id": 2,
+      "question": "ขั้นตอนใดเป็นลำดับแรกในการติดตั้งโปรแกรม GX Works3",
+      "choices": [
+        {
+          "key": "ก",
+          "text": "ทำการ Convert โปรแกรม"
+        },
+        {
+          "key": "ข",
+          "text": "เขียน Ladder Diagram"
+        },
+        {
+          "key": "ค",
+          "text": "เปิดโปรแกรมและสร้างโปรเจกต์ใหม่"
+        },
+        {
+          "key": "ง",
+          "text": "เชื่อมต่อ PLC กับคอมพิวเตอร์"
+        },
+        {
+          "key": "จ",
+          "text": "ดาวน์โหลดไฟล์ติดตั้งจากเว็บไซต์ Mitsubishi Electric"
+        }
+      ],
+      "answer": "จ",
+      "explanation": "คำตอบที่ถูกต้องคือ ข้อ จ. ดาวน์โหลดไฟล์ติดตั้งจากเว็บไซต์ Mitsubishi Electric"
+    },
+    {
+      "id": 3,
+      "question": "ส่วนประกอบใดของ GX Works3 ใช้สำหรับแสดงโครงสร้างโปรเจกต์ทั้งหมด",
+      "choices": [
+        {
+          "key": "ก",
+          "text": "Programming Area"
+        },
+        {
+          "key": "ข",
+          "text": "Output Window"
+        },
+        {
+          "key": "ค",
+          "text": "Navigation Window"
+        },
+        {
+          "key": "ง",
+          "text": "Tool Bar"
+        },
+        {
+          "key": "จ",
+          "text": "Menu Bar"
+        }
+      ],
+      "answer": "ค",
+      "explanation": "คำตอบที่ถูกต้องคือ ข้อ ค. Navigation Window"
+    },
+    {
+      "id": 4,
+      "question": "การเชื่อมต่อ PLC กับคอมพิวเตอร์ผ่านช่องทางใดที่นิยมในงานอุตสาหกรรม",
+      "choices": [
+        {
+          "key": "ก",
+          "text": "Wi-Fi"
+        },
+        {
+          "key": "ข",
+          "text": "Bluetooth"
+        },
+        {
+          "key": "ค",
+          "text": "Infrared"
+        },
+        {
+          "key": "ง",
+          "text": "Ethernet (LAN)"
+        },
+        {
+          "key": "จ",
+          "text": "Serial Port (RS-232)"
+        }
+      ],
+      "answer": "ง",
+      "explanation": "คำตอบที่ถูกต้องคือ ข้อ ง. Ethernet (LAN)"
+    },
+    {
+      "id": 5,
+      "question": "คำสั่ง Write to PLC ใน GX Works3 ใช้เพื่ออะไร",
+      "choices": [
+        {
+          "key": "ก",
+          "text": "ส่งโปรแกรมที่เขียนแล้วไปยัง PLC"
+        },
+        {
+          "key": "ข",
+          "text": "อ่านโปรแกรมจาก PLC ขึ้นมาแก้ไข"
+        },
+        {
+          "key": "ค",
+          "text": "ลบโปรแกรมออกจาก PLC"
+        },
+        {
+          "key": "ง",
+          "text": "ตรวจสอบ Error ในโปรแกรม"
+        },
+        {
+          "key": "จ",
+          "text": "จำลองการทำงานของโปรแกรม"
+        }
+      ],
+      "answer": "ก",
+      "explanation": "คำตอบที่ถูกต้องคือ ข้อ ก. ส่งโปรแกรมที่เขียนแล้วไปยัง PLC"
+    },
+    {
+      "id": 6,
+      "question": "ฟังก์ชัน Simulation ในโปรแกรม GX Works3 มีประโยชน์อย่างไร",
+      "choices": [
+        {
+          "key": "ก",
+          "text": "ตั้งค่าพอร์ตการสื่อสาร"
+        },
+        {
+          "key": "ข",
+          "text": "บันทึกข้อมูลลงในฐานข้อมูล"
+        },
+        {
+          "key": "ค",
+          "text": "พิมพ์โปรแกรม Ladder Diagram ออกทางเครื่องพิมพ์"
+        },
+        {
+          "key": "ง",
+          "text": "เชื่อมต่อกับระบบ SCADA"
+        },
+        {
+          "key": "จ",
+          "text": "ทดสอบโปรแกรมโดยไม่ต้องเชื่อมต่อ PLC จริง"
+        }
+      ],
+      "answer": "จ",
+      "explanation": "คำตอบที่ถูกต้องคือ ข้อ จ. ทดสอบโปรแกรมโดยไม่ต้องเชื่อมต่อ PLC จริง"
+    },
+    {
+      "id": 7,
+      "question": "ขั้นตอนใดต้องทำก่อนการ Write to PLC",
+      "choices": [
+        {
+          "key": "ก",
+          "text": "Start Simulation"
+        },
+        {
+          "key": "ข",
+          "text": "Stop Simulation"
+        },
+        {
+          "key": "ค",
+          "text": "Read from PLC"
+        },
+        {
+          "key": "ง",
+          "text": "Convert โปรแกรม"
+        },
+        {
+          "key": "จ",
+          "text": "Start Monitoring"
+        }
+      ],
+      "answer": "ง",
+      "explanation": "คำตอบที่ถูกต้องคือ ข้อ ง. Convert โปรแกรม"
+    },
+    {
+      "id": 8,
+      "question": "ภาษาใดในมาตรฐาน IEC 61131-3 ที่ใช้เขียนโปรแกรม PLC ในรูปแบบผังบันได",
+      "choices": [
+        {
+          "key": "ก",
+          "text": "Ladder Diagram (LD)"
+        },
+        {
+          "key": "ข",
+          "text": "Sequential Function Chart (SFC)"
+        },
+        {
+          "key": "ค",
+          "text": "Structured Text (ST)"
+        },
+        {
+          "key": "ง",
+          "text": "Instruction List (IL)"
+        },
+        {
+          "key": "จ",
+          "text": "Function Block Diagram (FBD)"
+        }
+      ],
+      "answer": "ก",
+      "explanation": "คำตอบที่ถูกต้องคือ ข้อ ก. Ladder Diagram (LD)"
+    },
+    {
+      "id": 9,
+      "question": "PLC รุ่น FX5UJ ของ Mitsubishi จัดอยู่ในประเภทใด",
+      "choices": [
+        {
+          "key": "ก",
+          "text": "Standard Type (รุ่นมาตรฐาน)"
+        },
+        {
+          "key": "ข",
+          "text": "High-Performance Type (รุ่นประสิทธิภาพสูง)"
+        },
+        {
+          "key": "ค",
+          "text": "Industrial Type (รุ่นอุตสาหกรรม)"
+        },
+        {
+          "key": "ง",
+          "text": "Basic Type (รุ่นพื้นฐาน)"
+        },
+        {
+          "key": "จ",
+          "text": "Compact Type (รุ่นประหยัด)"
+        }
+      ],
+      "answer": "จ",
+      "explanation": "คำตอบที่ถูกต้องคือ ข้อ จ. Compact Type (รุ่นประหยัด)"
+    },
+    {
+      "id": 10,
+      "question": "Monitor Mode ในโปรแกรม GX Works3 ใช้สำหรับ",
+      "choices": [
+        {
+          "key": "ก",
+          "text": "ติดตั้งโปรแกรม GX Works3"
+        },
+        {
+          "key": "ข",
+          "text": "ดาวน์โหลดโปรแกรมจากอินเทอร์เน็ต"
+        },
+        {
+          "key": "ค",
+          "text": "ติดตามสถานะอินพุต/เอาต์พุตของ PLC แบบเรียลไทม์"
+        },
+        {
+          "key": "ง",
+          "text": "เขียนโปรแกรม Ladder ใหม่"
+        },
+        {
+          "key": "จ",
+          "text": "สร้างโปรเจกต์ใหม่"
+        }
+      ],
+      "answer": "ค",
+      "explanation": "คำตอบที่ถูกต้องคือ ข้อ ค. ติดตามสถานะอินพุต/เอาต์พุตของ PLC แบบเรียลไทม์"
+    }
+  ]
+}

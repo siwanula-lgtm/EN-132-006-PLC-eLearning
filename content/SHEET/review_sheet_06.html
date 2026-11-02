@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Review Sheet 06 - การใช้งานพื้นฐาน HMI</title>
+<link rel="stylesheet" href="sheet.css">
+</head>
+<body>
+<div class="toolbar"><button onclick="window.print()">🖨️ พิมพ์ / บันทึก PDF</button></div>
+<div class="page">
+
+  <div class="sheet-header">
+    <div>
+      <div class="title">⚙️ Review Sheet หน่วยที่ 6 — การใช้งานพื้นฐาน HMI</div>
+      <div class="sub">EN-132-006 Programmable Logic Controller (PLC) · Basic HMI Operation</div>
+    </div>
+    <div class="meta">
+      สัปดาห์ที่ 7 · ท 2 / ป 3 ชม. · CLO2<br>
+      ใบงานปฏิบัติที่ 6
+    </div>
+  </div>
+
+  <div class="columns">
+    <div class="col">
+      <div class="section">
+        <div class="section-header"><span class="icon">📌</span> 1. สาระสำคัญ</div>
+        <div class="section-body">
+          <p>Human Machine Interface (HMI) เป็นตัวกลางที่เชื่อมต่อระหว่างผู้ปฏิบัติงานกับเครื่องจักรในระบบควบคุมอัตโนมัติ โดยใช้ซอฟต์แวร์ GT Designer3 ของ Mitsubishi ในการออกแบบหน้าจอ ประกอบด้วยวัตถุหลัก ได้แก่ Bit Switch สำหรับสั่งงาน Bit Lamp สำหรับแสดงสถานะ Numerical Display สำหรับแสดงค่าตัวเลข และ Numerical Input สำหรับรับค่าจากผู้ใช้ ซึ่งทั้งหมดสื่อสารกับ PLC ผ่านหลักการ Read/Write ในรูปแบบ Master–Slave Communication ช่วยเพิ่มประสิทธิภาพ ความปลอดภัย และความยืดหยุ่นของระบบอุตสาหกรรม จุดประสงค์การเรียน (จุดประสงค์ทั่วไป) …</p>
+        </div>
+      </div>
+      <div class="section">
+        <div class="section-header"><span class="icon">🎯</span> 2. จุดประสงค์การเรียน (ทั่วไป)</div>
+        <div class="section-body">
+          <ul class="mini"><li>อธิบายหลักการ Read/Write ข้อมูลระหว่าง PLC และ HMI</li><li>อธิบายหลักการและใช้งาน Bit Switch บนหน้าจอ HMI</li><li>อธิบายการแสดงสถานะอุปกรณ์ผ่าน Bit Lamp</li><li>อธิบายการแสดงค่าตัวเลขจาก PLC ด้วย Numerical Display</li><li>อธิบายการรับค่าตัวเลขจากผู้ใช้ผ่าน Numerical Input สู่ PLC</li></ul>
+        </div>
+      </div>
+      <div class="section">
+        <div class="section-header"><span class="icon">🧩</span> 3. หัวข้อเนื้อหาในหน่วย</div>
+        <div class="section-body">
+          <ul class="mini"><li>6.1 Read/Write HMI</li><li>6.2 Bit Switch</li><li>6.3 Bit Lamp</li><li>6.4 Numerical Display</li><li>6.5 Numerical Input</li></ul>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="section">
+        <div class="section-header"><span class="icon">📝</span> 4. บทสรุป</div>
+        <div class="section-body">
+          <p>การออกแบบหน้าจอ HMI พื้นฐานประกอบด้วย Bit Switch สำหรับสั่งงานบิต Bit Lamp สำหรับแสดงสถานะ Numerical Display สำหรับแสดงค่าตัวเลข และ Numerical Input สำหรับป้อนค่า โดยอ้างอิงอุปกรณ์ภายใน PLC ตามที่กำหนดใน Read/Write การสร้างหน้าจอหลายหน้าและการสลับหน้าจอช่วยจัดระเบียบการใช้งาน หน้าจอที่ดีต้องอ่านง่าย สื่อสถานะชัดเจน และคำนึงถึงความปลอดภัยของผู้ใช้งาน</p>
+        </div>
+      </div>
+      <div class="section">
+        <div class="section-header"><span class="icon">❓</span> 5. คำถามทบทวน (จากแบบฝึกหัดท้ายหน่วย)</div>
+        <div class="section-body">
+          <ul class="mini"><li>อธิบายหลักการทำงานของการ Read/Write ระหว่าง HMI และ PLC ว่ามีความสำคัญอย่างไรต่อระบบควบคุมอัตโนมัติ …</li><li>จงอธิบายลักษณะการสื่อสารแบบ Master–Slave Communication ระหว่าง HMI กับ PLC …</li><li>อธิบายประเภทของการเชื่อมต่อระหว่าง HMI และ PLC ได้แก่ RS-232, RS-485 และ Ethernet …</li><li>อธิบายขั้นตอนการออกแบบหน้าจอ Read/Write HMI ในโปรแกรม GT Designer3 …</li><li>อธิบายความหมายและหลักการทำงานของ Bit Switch พร้อมยกตัวอย่างการใช้งานในงานควบคุม เช่น …</li><li>จากตารางรูปแบบการทำงานของ Bit Switch (Momentary, Alternate, Set/Reset) …</li></ul>
+        </div>
+      </div>
+      <div class="section warn">
+        <div class="section-header"><span class="icon">⚠️</span> ข้อควรระวังด้านความปลอดภัย (ใบงานปฏิบัติ)</div>
+        <div class="section-body">
+          <ul class="mini"><li>ถอดปลั๊กแหล่งจ่ายไฟหรือกดสวิตช์ฉุกเฉินก่อนต่อ/แก้ไขสายไฟทุกครั้ง และจ่ายไฟได้เมื่อครูผู้สอนตรวจสอบแล้วเท่านั้น</li><li>ตรวจสอบแรงดันและขั้วของแหล่งจ่ายให้ตรงกับที่ระบุในคู่มือชุดฝึกก่อนจ่ายไฟ ห้ามต่อสายขณะมีไฟ</li><li>สวมรองเท้าหุ้มส้น ไม่สวมเครื่องประดับโลหะ และไม่วางของเหลวบนโต๊ะปฏิบัติงาน</li><li>ตรวจสอบอุปกรณ์เอาต์พุตที่ต่ออยู่ก่อนกดปุ่มบนหน้าจอ เพราะการกด Bit Switch สั่งงานเอาต์พุตจริงทันที</li></ul>
+        </div>
+      </div>
+      <div class="section">
+        <div class="section-header"><span class="icon">🔧</span> 6. เชื่อมโยงกับใบงานปฏิบัติที่ 6</div>
+        <div class="section-body">
+          <p><span class="accent">การออกแบบหน้าจอควบคุมพื้นฐานด้วย HMI</span><br>เวลาปฏิบัติ 3 ชั่วโมง · ทำแบบทดสอบหลังเรียนหน่วยที่ 6 หลังทบทวน</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">EN-132-006 โปรแกรมเมเบิลลอจิกคอนโทรลเลอร์ · อาจารย์ศิวณุ เหล่าบุตรสา · สาขาวิชาวิศวกรรมเครื่องกลและเมคคาทรอนิกส์ มหาวิทยาลัยกาฬสินธุ์ · ภาคการศึกษาที่ 2/2568</div>
+</div>
+</body>
+</html>

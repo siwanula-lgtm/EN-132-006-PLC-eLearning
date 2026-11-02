@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Review Sheet 02 - ระบบอินพุตและเอาต์พุตของ PLC</title>
+<link rel="stylesheet" href="sheet.css">
+</head>
+<body>
+<div class="toolbar"><button onclick="window.print()">🖨️ พิมพ์ / บันทึก PDF</button></div>
+<div class="page">
+
+  <div class="sheet-header">
+    <div>
+      <div class="title">⚙️ Review Sheet หน่วยที่ 2 — ระบบอินพุตและเอาต์พุตของ PLC</div>
+      <div class="sub">EN-132-006 Programmable Logic Controller (PLC) · PLC Input and Output Systems</div>
+    </div>
+    <div class="meta">
+      สัปดาห์ที่ 2 · ท 2 / ป 3 ชม. · CLO3<br>
+      ใบงานปฏิบัติที่ 2
+    </div>
+  </div>
+
+  <div class="columns">
+    <div class="col">
+      <div class="section">
+        <div class="section-header"><span class="icon">📌</span> 1. สาระสำคัญ</div>
+        <div class="section-body">
+          <p>ระบบอินพุตและเอาต์พุตของ PLC ประกอบด้วยอุปกรณ์หลากหลายชนิดที่ทำหน้าที่รับสัญญาณจากสภาพแวดล้อมและแสดงผลการทำงาน โดยฝั่งอินพุต ได้แก่ Push Button, Proximity Sensor และ Encoder ส่วนฝั่งเอาต์พุต ได้แก่ Pilot Lamp, Tower Lamp, Relay และ Motor ซึ่งการเข้าใจหลักการทำงานและการเชื่อมต่ออุปกรณ์เหล่านี้อย่างถูกต้องถือเป็นพื้นฐานสำคัญของการออกแบบและบำรุงรักษาระบบควบคุมอัตโนมัติในงานอุตสาหกรรม โดยมีจุดประสงค์การเรียนรู้ (จุดประสงค์ทั่วไป) และจุดประสงค์เชิงพฤติกรรมดังนี้</p>
+        </div>
+      </div>
+      <div class="section">
+        <div class="section-header"><span class="icon">🎯</span> 2. จุดประสงค์การเรียน (ทั่วไป)</div>
+        <div class="section-body">
+          <ul class="mini"><li>บอกลักษณะและหน้าที่ของ Push Button และ Emergency Stop ที่ใช้เป็นอินพุตของ PLC</li><li>อธิบายหลักการทำงานและประเภทของ Proximity Sensor และ Photoelectric Sensor</li><li>อธิบายหลักการทำงานของ Encoder ในระบบควบคุมตำแหน่งและความเร็ว</li><li>ระบุหน้าที่และความหมายของสีใน Pilot Lamp และ Tower Lamp</li><li>อธิบายโครงสร้างและหลักการทำงานของ Relay ในวงจรควบคุม</li><li>จำแนกประเภทของมอเตอร์และเลือกใช้งานในระบบอัตโนมัติได้</li></ul>
+        </div>
+      </div>
+      <div class="section">
+        <div class="section-header"><span class="icon">🧩</span> 3. หัวข้อเนื้อหาในหน่วย</div>
+        <div class="section-body">
+          <ul class="mini"><li>2.1 Push Button</li><li>2.2 Proximity Sensor</li><li>2.3 Encoder</li><li>2.4 Pilot Lamp</li><li>2.5 Tower Lamp</li><li>2.6 Relay</li><li>2.7 Motor</li></ul>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="section">
+        <div class="section-header"><span class="icon">📝</span> 4. บทสรุป</div>
+        <div class="section-body">
+          <p>อุปกรณ์อินพุตทำหน้าที่ส่งสัญญาณจากภายนอกเข้าสู่ PLC เช่น Push Button, Proximity Sensor และ Encoder ส่วนอุปกรณ์เอาต์พุตรับคำสั่งจาก PLC เช่น Pilot Lamp, Tower Lamp, Relay และมอเตอร์ การเลือกและต่ออุปกรณ์ต้องให้สอดคล้องกับชนิดของอินพุตและเอาต์พุตของ PLC รวมถึงแรงดันและกระแสของโหลด การใช้รีเลย์ช่วยแยกวงจรควบคุมออกจากวงจรกำลัง ทำให้ควบคุมโหลดที่มีกระแสสูงได้อย่างปลอดภัย</p>
+        </div>
+      </div>
+      <div class="section">
+        <div class="section-header"><span class="icon">❓</span> 5. คำถามทบทวน (จากแบบฝึกหัดท้ายหน่วย)</div>
+        <div class="section-body">
+          <ul class="mini"><li>อธิบายหลักการทำงานของ Push Button แบบ NO (Normally Open) และ NC (Normally Closed) …</li><li>เปรียบเทียบความแตกต่างระหว่าง Push Button ทั่วไปกับ Emergency Stop Switch (E-Stop) …</li><li>อธิบายหลักการทำงานของ Proximity Sensor ทั้ง 3 ประเภท คือ Inductive, Capacitive และ Photoelectric …</li><li>ใน Proximity Sensor แบบ 3 สาย มีการต่อสัญญาณแบบ NPN และ PNP จงอธิบายความแตกต่างและการเลือกใช้งานให้เหมาะสมกับ …</li><li>อธิบายหน้าที่และการทำงานของ Encoder ในระบบควบคุม โดยระบุหน้าที่ของสัญญาณ Channel A, B และ Z …</li><li>จงอธิบายความหมายของสีต่าง ๆ ใน Pilot Lamp และ Tower Lamp ว่ามีความหมายอย่างไรในเชิงสัญญาณควบคุม …</li></ul>
+        </div>
+      </div>
+      <div class="section warn">
+        <div class="section-header"><span class="icon">⚠️</span> ข้อควรระวังด้านความปลอดภัย (ใบงานปฏิบัติ)</div>
+        <div class="section-body">
+          <ul class="mini"><li>ถอดปลั๊กแหล่งจ่ายไฟหรือกดสวิตช์ฉุกเฉินก่อนต่อ/แก้ไขสายไฟทุกครั้ง และจ่ายไฟได้เมื่อครูผู้สอนตรวจสอบแล้วเท่านั้น</li><li>ตรวจสอบแรงดันและขั้วของแหล่งจ่ายให้ตรงกับที่ระบุในคู่มือชุดฝึกก่อนจ่ายไฟ ห้ามต่อสายขณะมีไฟ</li><li>สวมรองเท้าหุ้มส้น ไม่สวมเครื่องประดับโลหะ และไม่วางของเหลวบนโต๊ะปฏิบัติงาน</li><li>สาย Proximity Sensor แบบ 3 สายมีสีน้ำตาลเป็นขั้วบวก สีน้ำเงินเป็นขั้วลบ และสีดำเป็นสัญญาณ ต้องต่อให้ถูกขั้วก่อนจ่ายไฟ</li></ul>
+        </div>
+      </div>
+      <div class="section">
+        <div class="section-header"><span class="icon">🔧</span> 6. เชื่อมโยงกับใบงานปฏิบัติที่ 2</div>
+        <div class="section-body">
+          <p><span class="accent">การต่อวงจรอุปกรณ์อินพุตและเอาต์พุตกับ PLC และทดสอบด้วยโหมด Monitor</span><br>เวลาปฏิบัติ 3 ชั่วโมง · ทำแบบทดสอบหลังเรียนหน่วยที่ 2 หลังทบทวน</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">EN-132-006 โปรแกรมเมเบิลลอจิกคอนโทรลเลอร์ · อาจารย์ศิวณุ เหล่าบุตรสา · สาขาวิชาวิศวกรรมเครื่องกลและเมคคาทรอนิกส์ มหาวิทยาลัยกาฬสินธุ์ · ภาคการศึกษาที่ 2/2568</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,289 @@
+{
+  "moduleId": "10",
+  "kind": "post",
+  "title": "PLC Troubleshooting and Maintenance",
+  "titleTh": "การตรวจสอบและบำรุงรักษา PLC",
+  "timeMinutes": 15,
+  "questions": [
+    {
+      "id": 1,
+      "question": "สาเหตุใดจัดเป็นปัญหาด้านซอฟต์แวร์ (Software Error) ของ PLC",
+      "choices": [
+        {
+          "key": "ก",
+          "text": "สายไฟขาดทำให้สัญญาณไม่ถึง Input"
+        },
+        {
+          "key": "ข",
+          "text": "Power Supply มีแรงดันไม่คงที่"
+        },
+        {
+          "key": "ค",
+          "text": "โปรแกรม Ladder Diagram ถูกเขียนผิดลำดับตรรกะ (Logic Error)"
+        },
+        {
+          "key": "ง",
+          "text": "Sensor เสียหายจากแรงดันเกิน"
+        },
+        {
+          "key": "จ",
+          "text": "ความชื้นสูงทำให้วงจรอิเล็กทรอนิกส์เสียหาย"
+        }
+      ],
+      "answer": "ค",
+      "explanation": "คำตอบที่ถูกต้องคือ ข้อ ค. โปรแกรม Ladder Diagram ถูกเขียนผิดลำดับตรรกะ (Logic Error)"
+    },
+    {
+      "id": 2,
+      "question": "คำสั่ง Device Memory Monitor ใน GX Works3 ใช้เพื่ออะไร",
+      "choices": [
+        {
+          "key": "ก",
+          "text": "ติดตั้งโปรแกรม GX Works3"
+        },
+        {
+          "key": "ข",
+          "text": "เขียนโปรแกรม Ladder Diagram ใหม่"
+        },
+        {
+          "key": "ค",
+          "text": "ตรวจสอบค่า D, M, X, Y ที่เปลี่ยนแปลงระหว่างการทำงาน"
+        },
+        {
+          "key": "ง",
+          "text": "แปลงภาษา Structured Text เป็น Ladder"
+        },
+        {
+          "key": "จ",
+          "text": "สร้างโปรเจกต์ใหม่"
+        }
+      ],
+      "answer": "ค",
+      "explanation": "คำตอบที่ถูกต้องคือ ข้อ ค. ตรวจสอบค่า D, M, X, Y ที่เปลี่ยนแปลงระหว่างการทำงาน"
+    },
+    {
+      "id": 3,
+      "question": "ขั้นตอนใดควรทำหลังจากแก้ไขข้อผิดพลาดของ PLC แล้ว",
+      "choices": [
+        {
+          "key": "ก",
+          "text": "ทดสอบด้วยโหมด Simulation Mode ก่อนรันจริง"
+        },
+        {
+          "key": "ข",
+          "text": "ปิดโปรแกรม GX Works3 ทันที"
+        },
+        {
+          "key": "ค",
+          "text": "ลบโปรแกรมใน PLC ออกทั้งหมด"
+        },
+        {
+          "key": "ง",
+          "text": "รีสตาร์ต PLC โดยไม่บันทึกผล"
+        },
+        {
+          "key": "จ",
+          "text": "เปลี่ยน Power Supply ใหม่"
+        }
+      ],
+      "answer": "ก",
+      "explanation": "คำตอบที่ถูกต้องคือ ข้อ ก. ทดสอบด้วยโหมด Simulation Mode ก่อนรันจริง"
+    },
+    {
+      "id": 4,
+      "question": "วิธีใดป้องกันสัญญาณรบกวนทางไฟฟ้า (Noise) ได้ดีที่สุด",
+      "choices": [
+        {
+          "key": "ก",
+          "text": "ลดจำนวน Output ของ PLC"
+        },
+        {
+          "key": "ข",
+          "text": "เพิ่มความยาวสายสัญญาณ"
+        },
+        {
+          "key": "ค",
+          "text": "ปิดการใช้งาน Monitor ใน GX Works3"
+        },
+        {
+          "key": "ง",
+          "text": "ใช้สายสัญญาณแบบ Shield Cable และเดินสายแยกจากสายไฟแรงดันสูง"
+        },
+        {
+          "key": "จ",
+          "text": "ใช้สาย PVC ทั่วไปแทน Shield Cable"
+        }
+      ],
+      "answer": "ง",
+      "explanation": "คำตอบที่ถูกต้องคือ ข้อ ง. ใช้สายสัญญาณแบบ Shield Cable และเดินสายแยกจากสายไฟแรงดันสูง"
+    },
+    {
+      "id": 5,
+      "question": "ห้ามต่อกราวด์แบบ Loop Ground เพราะเหตุใด",
+      "choices": [
+        {
+          "key": "ก",
+          "text": "เพราะจะทำให้แบตเตอรี่หมดเร็ว"
+        },
+        {
+          "key": "ข",
+          "text": "เพราะจะทำให้ PLC ทำงานเร็วขึ้นจนผิดปกติ"
+        },
+        {
+          "key": "ค",
+          "text": "เพราะทำให้ไฟ RUN ดับ"
+        },
+        {
+          "key": "ง",
+          "text": "เพราะอาจเกิดแรงดันไหลวน (Ground Loop) ซึ่งสร้างสัญญาณรบกวน"
+        },
+        {
+          "key": "จ",
+          "text": "เพราะจะทำให้ Sensor ส่งสัญญาณผิด"
+        }
+      ],
+      "answer": "ง",
+      "explanation": "คำตอบที่ถูกต้องคือ ข้อ ง. เพราะอาจเกิดแรงดันไหลวน (Ground Loop) ซึ่งสร้างสัญญาณรบกวน"
+    },
+    {
+      "id": 6,
+      "question": "ควรตรวจสอบและเปลี่ยนแบตเตอรี่สำรอง CPU ของ PLC ทุกกี่ปี",
+      "choices": [
+        {
+          "key": "ก",
+          "text": "ทุก 5 ปี"
+        },
+        {
+          "key": "ข",
+          "text": "ทุก 6 เดือน"
+        },
+        {
+          "key": "ค",
+          "text": "ทุก 1 ปี"
+        },
+        {
+          "key": "ง",
+          "text": "ทุก 10 ปี"
+        },
+        {
+          "key": "จ",
+          "text": "ทุก 3 ปี"
+        }
+      ],
+      "answer": "จ",
+      "explanation": "คำตอบที่ถูกต้องคือ ข้อ จ. ทุก 3 ปี"
+    },
+    {
+      "id": 7,
+      "question": "ข้อใดเป็นประโยชน์หลักของการจัดทำ Maintenance Log Sheet",
+      "choices": [
+        {
+          "key": "ก",
+          "text": "ใช้เขียนโปรแกรม Ladder ใหม่"
+        },
+        {
+          "key": "ข",
+          "text": "ใช้เป็นข้อมูลสำหรับการวางแผนบำรุงรักษาในอนาคต"
+        },
+        {
+          "key": "ค",
+          "text": "ใช้ดาวน์โหลดโปรแกรมลง PLC"
+        },
+        {
+          "key": "ง",
+          "text": "ใช้ตั้งค่า IP Address ของ PLC"
+        },
+        {
+          "key": "จ",
+          "text": "ใช้อัปเดต Firmware ของ PLC"
+        }
+      ],
+      "answer": "ข",
+      "explanation": "คำตอบที่ถูกต้องคือ ข้อ ข. ใช้เป็นข้อมูลสำหรับการวางแผนบำรุงรักษาในอนาคต"
+    },
+    {
+      "id": 8,
+      "question": "การสำรองข้อมูลโปรแกรม PLC ผ่าน GX Works3 ทำผ่านเมนูใด",
+      "choices": [
+        {
+          "key": "ก",
+          "text": "Project → New"
+        },
+        {
+          "key": "ข",
+          "text": "Tool → Options → Language"
+        },
+        {
+          "key": "ค",
+          "text": "Edit → Find and Replace"
+        },
+        {
+          "key": "ง",
+          "text": "Online → PLC Parameter → Backup/Restore"
+        },
+        {
+          "key": "จ",
+          "text": "Debug → Simulation → Start"
+        }
+      ],
+      "answer": "ง",
+      "explanation": "คำตอบที่ถูกต้องคือ ข้อ ง. Online → PLC Parameter → Backup/Restore"
+    },
+    {
+      "id": 9,
+      "question": "ปัจจัยสิ่งแวดล้อมใดส่งผลให้เกิดสนิมที่ขั้วต่อ (Terminal Block) ของ PLC",
+      "choices": [
+        {
+          "key": "ก",
+          "text": "สัญญาณรบกวนไฟฟ้า (Electrical Noise)"
+        },
+        {
+          "key": "ข",
+          "text": "ฝุ่นละออง (Dust)"
+        },
+        {
+          "key": "ค",
+          "text": "แรงดันไฟฟ้าต่ำ (Low Voltage)"
+        },
+        {
+          "key": "ง",
+          "text": "อุณหภูมิสูง (High Temperature)"
+        },
+        {
+          "key": "จ",
+          "text": "ความชื้นสูง (High Humidity)"
+        }
+      ],
+      "answer": "จ",
+      "explanation": "คำตอบที่ถูกต้องคือ ข้อ จ. ความชื้นสูง (High Humidity)"
+    },
+    {
+      "id": 10,
+      "question": "เทคนิค Trend Analysis ในการบำรุงรักษาเชิงคาดการณ์ใช้ข้อมูลจากแหล่งใด",
+      "choices": [
+        {
+          "key": "ก",
+          "text": "ไฟแสดงสถานะ POWER"
+        },
+        {
+          "key": "ข",
+          "text": "พอร์ตสื่อสารของ PLC เช่น RS-485 หรือ Ethernet"
+        },
+        {
+          "key": "ค",
+          "text": "โปรแกรม Ladder Diagram"
+        },
+        {
+          "key": "ง",
+          "text": "แบตเตอรี่สำรองของ CPU"
+        },
+        {
+          "key": "จ",
+          "text": "คู่มือการใช้งาน PLC"
+        }
+      ],
+      "answer": "ข",
+      "explanation": "คำตอบที่ถูกต้องคือ ข้อ ข. พอร์ตสื่อสารของ PLC เช่น RS-485 หรือ Ethernet"
+    }
+  ]
+}

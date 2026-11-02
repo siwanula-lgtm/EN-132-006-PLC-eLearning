@@ -1,0 +1,289 @@
+{
+  "moduleId": "03",
+  "kind": "post",
+  "title": "Using the PLC with GX Works3",
+  "titleTh": "การใช้งาน PLC",
+  "timeMinutes": 15,
+  "questions": [
+    {
+      "id": 1,
+      "question": "ไฟล์ติดตั้ง GX Works3 ที่ดาวน์โหลดจากเว็บไซต์ Mitsubishi มีชื่อว่าอะไร",
+      "choices": [
+        {
+          "key": "ก",
+          "text": "mitsubishi_plc_v3.msi"
+        },
+        {
+          "key": "ข",
+          "text": "melsoft_plc_installer.zip"
+        },
+        {
+          "key": "ค",
+          "text": "iQworks_full_install.exe"
+        },
+        {
+          "key": "ง",
+          "text": "sw1dnd-gxw3-e_117x"
+        },
+        {
+          "key": "จ",
+          "text": "gxworks3_setup.exe"
+        }
+      ],
+      "answer": "ง",
+      "explanation": "คำตอบที่ถูกต้องคือ ข้อ ง. sw1dnd-gxw3-e_117x"
+    },
+    {
+      "id": 2,
+      "question": "ส่วนใดของ GX Works3 อยู่ด้านล่างสุดของหน้าจอและแสดง Error, Warning, Information",
+      "choices": [
+        {
+          "key": "ก",
+          "text": "Navigation Window"
+        },
+        {
+          "key": "ข",
+          "text": "Output Window"
+        },
+        {
+          "key": "ค",
+          "text": "Programming Area"
+        },
+        {
+          "key": "ง",
+          "text": "Menu Bar"
+        },
+        {
+          "key": "จ",
+          "text": "Tool Bar"
+        }
+      ],
+      "answer": "ข",
+      "explanation": "คำตอบที่ถูกต้องคือ ข้อ ข. Output Window"
+    },
+    {
+      "id": 3,
+      "question": "การ Read from PLC ใน GX Works3 หมายถึงอะไร",
+      "choices": [
+        {
+          "key": "ก",
+          "text": "ตรวจสอบ Error ของ PLC"
+        },
+        {
+          "key": "ข",
+          "text": "รีสตาร์ต PLC"
+        },
+        {
+          "key": "ค",
+          "text": "ส่งโปรแกรมจากคอมพิวเตอร์ไปยัง PLC"
+        },
+        {
+          "key": "ง",
+          "text": "จำลองการทำงานของโปรแกรม"
+        },
+        {
+          "key": "จ",
+          "text": "ดึงโปรแกรมที่มีอยู่ใน PLC ขึ้นมายังคอมพิวเตอร์"
+        }
+      ],
+      "answer": "จ",
+      "explanation": "คำตอบที่ถูกต้องคือ ข้อ จ. ดึงโปรแกรมที่มีอยู่ใน PLC ขึ้นมายังคอมพิวเตอร์"
+    },
+    {
+      "id": 4,
+      "question": "PLC ตระกูล iQ-R ของ Mitsubishi ใช้ CPU ชนิดใด",
+      "choices": [
+        {
+          "key": "ก",
+          "text": "NCCPU"
+        },
+        {
+          "key": "ข",
+          "text": "LCPU"
+        },
+        {
+          "key": "ค",
+          "text": "QCPU"
+        },
+        {
+          "key": "ง",
+          "text": "FX5CPU"
+        },
+        {
+          "key": "จ",
+          "text": "RCPU"
+        }
+      ],
+      "answer": "จ",
+      "explanation": "คำตอบที่ถูกต้องคือ ข้อ จ. RCPU"
+    },
+    {
+      "id": 5,
+      "question": "เมนูใดใน GX Works3 ที่ใช้เริ่มต้นการจำลองการทำงาน (Simulation)",
+      "choices": [
+        {
+          "key": "ก",
+          "text": "Edit → Convert"
+        },
+        {
+          "key": "ข",
+          "text": "Online → Monitor → Start Monitoring"
+        },
+        {
+          "key": "ค",
+          "text": "Tool → Options"
+        },
+        {
+          "key": "ง",
+          "text": "Debug → Simulation → Start Simulation"
+        },
+        {
+          "key": "จ",
+          "text": "Project → New..."
+        }
+      ],
+      "answer": "ง",
+      "explanation": "คำตอบที่ถูกต้องคือ ข้อ ง. Debug → Simulation → Start Simulation"
+    },
+    {
+      "id": 6,
+      "question": "ข้อมูลใดไม่ต้องกรอกในขั้นตอนการติดตั้ง GX Works3",
+      "choices": [
+        {
+          "key": "ก",
+          "text": "Company (ชื่อหน่วยงาน)"
+        },
+        {
+          "key": "ข",
+          "text": "Name (ชื่อผู้ใช้)"
+        },
+        {
+          "key": "ค",
+          "text": "IP Address ของ PLC"
+        },
+        {
+          "key": "ง",
+          "text": "Product ID (รหัสผลิตภัณฑ์)"
+        },
+        {
+          "key": "จ",
+          "text": "ก. ข. ค. ล้วนต้องกรอก"
+        }
+      ],
+      "answer": "ค",
+      "explanation": "คำตอบที่ถูกต้องคือ ข้อ ค. IP Address ของ PLC"
+    },
+    {
+      "id": 7,
+      "question": "ในการเชื่อมต่อ Ethernet ระหว่าง GX Works3 กับ PLC ต้องตั้งค่าใดก่อน",
+      "choices": [
+        {
+          "key": "ก",
+          "text": "Start Monitoring"
+        },
+        {
+          "key": "ข",
+          "text": "Convert Program"
+        },
+        {
+          "key": "ค",
+          "text": "Communication Setting"
+        },
+        {
+          "key": "ง",
+          "text": "Start Simulation"
+        },
+        {
+          "key": "จ",
+          "text": "Write to PLC"
+        }
+      ],
+      "answer": "ค",
+      "explanation": "คำตอบที่ถูกต้องคือ ข้อ ค. Communication Setting"
+    },
+    {
+      "id": 8,
+      "question": "PLC Mitsubishi รุ่นใดเป็น Standard Type ในตระกูล FX5",
+      "choices": [
+        {
+          "key": "ก",
+          "text": "FX5UJ"
+        },
+        {
+          "key": "ข",
+          "text": "FX5U"
+        },
+        {
+          "key": "ค",
+          "text": "FX5S"
+        },
+        {
+          "key": "ง",
+          "text": "RCPU"
+        },
+        {
+          "key": "จ",
+          "text": "FX5UC"
+        }
+      ],
+      "answer": "ข",
+      "explanation": "คำตอบที่ถูกต้องคือ ข้อ ข. FX5U"
+    },
+    {
+      "id": 9,
+      "question": "คำสั่ง Online → Monitor → Start Monitoring ใช้เพื่ออะไร",
+      "choices": [
+        {
+          "key": "ก",
+          "text": "เขียนโปรแกรมลงใน PLC"
+        },
+        {
+          "key": "ข",
+          "text": "เข้าสู่โหมด Real-time Monitoring เพื่อดูสถานะ I/O ของ PLC"
+        },
+        {
+          "key": "ค",
+          "text": "เริ่มการจำลองโปรแกรม"
+        },
+        {
+          "key": "ง",
+          "text": "สร้างโปรเจกต์ใหม่"
+        },
+        {
+          "key": "จ",
+          "text": "ปิดโปรแกรม GX Works3"
+        }
+      ],
+      "answer": "ข",
+      "explanation": "คำตอบที่ถูกต้องคือ ข้อ ข. เข้าสู่โหมด Real-time Monitoring เพื่อดูสถานะ I/O ของ PLC"
+    },
+    {
+      "id": 10,
+      "question": "ลำดับขั้นตอนที่ถูกต้องในการส่งโปรแกรมลง PLC คือ",
+      "choices": [
+        {
+          "key": "ก",
+          "text": "Write to PLC → Convert → เขียน Ladder"
+        },
+        {
+          "key": "ข",
+          "text": "Convert → เขียน Ladder → Write to PLC"
+        },
+        {
+          "key": "ค",
+          "text": "Start Simulation → Convert → Write to PLC"
+        },
+        {
+          "key": "ง",
+          "text": "Read from PLC → เขียน Ladder → Convert"
+        },
+        {
+          "key": "จ",
+          "text": "เขียน Ladder → Convert → Write to PLC"
+        }
+      ],
+      "answer": "จ",
+      "explanation": "คำตอบที่ถูกต้องคือ ข้อ จ. เขียน Ladder → Convert → Write to PLC"
+    }
+  ]
+}

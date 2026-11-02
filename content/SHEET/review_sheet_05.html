@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Review Sheet 05 - บทนำเกี่ยวกับ HMI (Human Machine Interface)</title>
+<link rel="stylesheet" href="sheet.css">
+</head>
+<body>
+<div class="toolbar"><button onclick="window.print()">🖨️ พิมพ์ / บันทึก PDF</button></div>
+<div class="page">
+
+  <div class="sheet-header">
+    <div>
+      <div class="title">⚙️ Review Sheet หน่วยที่ 5 — บทนำเกี่ยวกับ HMI (Human Machine Interface)</div>
+      <div class="sub">EN-132-006 Programmable Logic Controller (PLC) · Introduction to HMI</div>
+    </div>
+    <div class="meta">
+      สัปดาห์ที่ 6 · ท 2 / ป 3 ชม. · CLO2<br>
+      ใบงานปฏิบัติที่ 5
+    </div>
+  </div>
+
+  <div class="columns">
+    <div class="col">
+      <div class="section">
+        <div class="section-header"><span class="icon">📌</span> 1. สาระสำคัญ</div>
+        <div class="section-body">
+          <p>Human Machine Interface (HMI) คืออุปกรณ์ที่ทำหน้าที่เป็นสื่อกลางระหว่างผู้ใช้งานกับเครื่องจักรหรือระบบอัตโนมัติ เพื่อให้ผู้ควบคุมสามารถตรวจสอบสถานะและสั่งงานระบบได้อย่างสะดวก โดยทั่วไป HMI จะทำงานร่วมกับ PLC เพื่อแสดงผลข้อมูลจากระบบในรูปแบบกราฟิก เช่น ปุ่มกดเสมือน หรือไฟแสดงสถานะ ประกอบด้วยส่วนสำคัญ ได้แก่ จอแสดงผล หน่วยประมวลผล หน่วยความจำ และพอร์ตสื่อสาร ซอฟต์แวร์ GT Designer3 ใช้สำหรับออกแบบและจัดการหน้าจอของ HMI ตระกูล GOT Series ของ Mitsubishi Electric การเชื่อมต่อ PLC กับ HMI สามารถทำได้ผ่านพอร์ต RS-232, …</p>
+        </div>
+      </div>
+      <div class="section">
+        <div class="section-header"><span class="icon">🎯</span> 2. จุดประสงค์การเรียน (ทั่วไป)</div>
+        <div class="section-body">
+          <ul class="mini"><li>อธิบายความหมายและบทบาทของ HMI ในระบบควบคุมอัตโนมัติ</li><li>วิเคราะห์ข้อดีและข้อจำกัดของการใช้ HMI เมื่อเทียบกับการควบคุมแบบเดิม</li><li>ระบุส่วนประกอบหลักและพอร์ตเชื่อมต่อของ HMI</li><li>อธิบายขั้นตอนการติดตั้งและใช้งานโปรแกรม GT Designer3</li><li>อธิบายหลักการและวิธีการเชื่อมต่อ PLC กับ HMI</li></ul>
+        </div>
+      </div>
+      <div class="section">
+        <div class="section-header"><span class="icon">🧩</span> 3. หัวข้อเนื้อหาในหน่วย</div>
+        <div class="section-body">
+          <ul class="mini"><li>5.1 HMI คืออะไร</li><li>5.2 ข้อดี/ข้อเสีย HMI</li><li>5.3 ส่วนประกอบ HMI</li><li>5.4 การลงโปรแกรม GT Designer3 และ Update</li><li>5.5 ส่วนประกอบโปรแกรม GT Designer3</li><li>5.6 การเชื่อมต่อ PLC กับ HMI</li></ul>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="section">
+        <div class="section-header"><span class="icon">📝</span> 4. บทสรุป</div>
+        <div class="section-body">
+          <p>HMI (Human Machine Interface) เป็นอุปกรณ์แสดงผลและรับคำสั่งจากผู้ปฏิบัติงานผ่านหน้าจอสัมผัส ช่วยให้ควบคุมและเฝ้าสังเกตระบบได้สะดวกกว่าสวิตช์และหลอดไฟแบบเดิม แต่มีข้อจำกัดด้านต้นทุนและการบำรุงรักษา การใช้งานเริ่มจากเลือกรุ่น HMI ติดตั้งโปรแกรม GT Designer3 กำหนด Controller Setting ตั้งค่า IP Address และเชื่อมต่อกับ PLC ผ่านพอร์ตสื่อสาร จากนั้นจึงโอนถ่ายโปรเจกต์เข้าสู่ HMI</p>
+        </div>
+      </div>
+      <div class="section">
+        <div class="section-header"><span class="icon">❓</span> 5. คำถามทบทวน (จากแบบฝึกหัดท้ายหน่วย)</div>
+        <div class="section-body">
+          <ul class="mini"><li>อธิบายความหมายของ HMI และบทบาทของ HMI …</li><li>ยกตัวอย่างการใช้งาน HMI ร่วมกับ PLC ในงานอุตสาหกรรมจริง …</li><li>วิเคราะห์ข้อดีและข้อจำกัดของการใช้ HMI เมื่อเทียบกับการควบคุมเครื่องจักรแบบใช้สวิตช์จริง (Manual Control)</li><li>จากบทเรียน &#x27;ส่วนประกอบ HMI&#x27; ให้อธิบายหน้าที่ของ จอแสดงผล (Display Unit), หน่วยประมวลผล (CPU Unit) และ …</li><li>อธิบายหลักการทำงานของ HMI ในกระบวนการ &#x27;รับข้อมูล - ประมวลผล - แสดงผล&#x27; …</li><li>อธิบายขั้นตอนการติดตั้งและอัปเดตโปรแกรม GT Designer3 ให้ถูกต้อง …</li></ul>
+        </div>
+      </div>
+      <div class="section warn">
+        <div class="section-header"><span class="icon">⚠️</span> ข้อควรระวังด้านความปลอดภัย (ใบงานปฏิบัติ)</div>
+        <div class="section-body">
+          <ul class="mini"><li>ถอดปลั๊กแหล่งจ่ายไฟหรือกดสวิตช์ฉุกเฉินก่อนต่อ/แก้ไขสายไฟทุกครั้ง และจ่ายไฟได้เมื่อครูผู้สอนตรวจสอบแล้วเท่านั้น</li><li>ตรวจสอบแรงดันและขั้วของแหล่งจ่ายให้ตรงกับที่ระบุในคู่มือชุดฝึกก่อนจ่ายไฟ ห้ามต่อสายขณะมีไฟ</li><li>สวมรองเท้าหุ้มส้น ไม่สวมเครื่องประดับโลหะ และไม่วางของเหลวบนโต๊ะปฏิบัติงาน</li><li>ห้ามปิดไฟหรือถอดสายสื่อสารขณะกำลังโอนถ่ายโปรเจกต์ (Download) เข้าสู่ HMI</li></ul>
+        </div>
+      </div>
+      <div class="section">
+        <div class="section-header"><span class="icon">🔧</span> 6. เชื่อมโยงกับใบงานปฏิบัติที่ 5</div>
+        <div class="section-body">
+          <p><span class="accent">การเชื่อมต่อ HMI กับ PLC และการใช้งานโปรแกรม GT Designer3</span><br>เวลาปฏิบัติ 3 ชั่วโมง · ทำแบบทดสอบหลังเรียนหน่วยที่ 5 หลังทบทวน</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">EN-132-006 โปรแกรมเมเบิลลอจิกคอนโทรลเลอร์ · อาจารย์ศิวณุ เหล่าบุตรสา · สาขาวิชาวิศวกรรมเครื่องกลและเมคคาทรอนิกส์ มหาวิทยาลัยกาฬสินธุ์ · ภาคการศึกษาที่ 2/2568</div>
+</div>
+</body>
+</html>

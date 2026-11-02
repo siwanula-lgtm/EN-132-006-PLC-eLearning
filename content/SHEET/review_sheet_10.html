@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Review Sheet 10 - การตรวจสอบและบำรุงรักษา PLC</title>
+<link rel="stylesheet" href="sheet.css">
+</head>
+<body>
+<div class="toolbar"><button onclick="window.print()">🖨️ พิมพ์ / บันทึก PDF</button></div>
+<div class="page">
+
+  <div class="sheet-header">
+    <div>
+      <div class="title">⚙️ Review Sheet หน่วยที่ 10 — การตรวจสอบและบำรุงรักษา PLC</div>
+      <div class="sub">EN-132-006 Programmable Logic Controller (PLC) · PLC Troubleshooting and Maintenance</div>
+    </div>
+    <div class="meta">
+      สัปดาห์ที่ 16 · ท 2 / ป 3 ชม. · CLO3<br>
+      ใบงานปฏิบัติที่ 10
+    </div>
+  </div>
+
+  <div class="columns">
+    <div class="col">
+      <div class="section">
+        <div class="section-header"><span class="icon">📌</span> 1. สาระสำคัญ</div>
+        <div class="section-body">
+          <p>การตรวจสอบและบำรุงรักษา PLC เป็นกระบวนการสำคัญที่ครอบคลุมทั้งการค้นหาและแก้ไขข้อผิดพลาด (Troubleshooting) การป้องกันความเสียหายจากปัจจัยแวดล้อม เช่น ไฟกระชาก ความร้อน ความชื้น และสัญญาณรบกวนทางไฟฟ้า รวมถึงแนวทางการบำรุงรักษาเชิงป้องกัน (Preventive Maintenance) และเชิงคาดการณ์ (Predictive Maintenance) การดูแลรักษา PLC อย่างเป็นระบบช่วยลด Downtime ยืดอายุการใช้งาน และรักษาความต่อเนื่องของกระบวนการผลิตในโรงงานอุตสาหกรรม จุดประสงค์การเรียน (จุดประสงค์ทั่วไป) จุดประสงค์เชิงพฤติกรรม</p>
+        </div>
+      </div>
+      <div class="section">
+        <div class="section-header"><span class="icon">🎯</span> 2. จุดประสงค์การเรียน (ทั่วไป)</div>
+        <div class="section-body">
+          <ul class="mini"><li>วิเคราะห์สาเหตุและตรวจสอบแก้ไขข้อผิดพลาดของระบบ PLC ได้อย่างเป็นระบบ</li><li>อธิบายหลักการและวิธีการป้องกันความเสียหายของ PLC จากปัจจัยแวดล้อมต่าง ๆ</li><li>อธิบายแนวทางการบำรุงรักษาเชิงป้องกัน (Preventive) และเชิงคาดการณ์ (Predictive) ได้</li><li>สามารถจัดทำตารางและบันทึกการบำรุงรักษา PLC เพื่อใช้ในการวางแผนดูแลระบบได้</li></ul>
+        </div>
+      </div>
+      <div class="section">
+        <div class="section-header"><span class="icon">🧩</span> 3. หัวข้อเนื้อหาในหน่วย</div>
+        <div class="section-body">
+          <ul class="mini"><li>10.1 การค้นหาและแก้ไขข้อผิดพลาด</li><li>10.2 การป้องกันความเสียหาย</li><li>10.3 การบำรุงรักษา PLC</li></ul>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="section">
+        <div class="section-header"><span class="icon">📝</span> 4. บทสรุป</div>
+        <div class="section-body">
+          <p>ระบบ PLC อาจทำงานผิดพลาดได้จากสาเหตุด้านไฟฟ้า การติดตั้ง โปรแกรม และสภาพแวดล้อม การตรวจสอบอย่างเป็นระบบช่วยให้พบสาเหตุได้รวดเร็ว การป้องกันความเสียหายทำได้โดยออกแบบการติดตั้งที่ปลอดภัย ควบคุมสภาพแวดล้อม และใช้อุปกรณ์ป้องกัน ส่วนการบำรุงรักษาเชิงป้องกันและเชิงคาดการณ์ช่วยยืดอายุการใช้งานและลดความเสียหายที่อาจเกิดขึ้น พร้อมบันทึกผลเป็นหลักฐานเพื่อวางแผนในระยะยาว</p>
+        </div>
+      </div>
+      <div class="section">
+        <div class="section-header"><span class="icon">❓</span> 5. คำถามทบทวน (จากแบบฝึกหัดท้ายหน่วย)</div>
+        <div class="section-body">
+          <ul class="mini"><li>อธิบายความสำคัญของการตรวจสอบและบำรุงรักษา PLC ในระบบควบคุมเครื่องจักรอัตโนมัติ …</li><li>จากเนื้อหาในบทเรียน จงอธิบายความแตกต่างระหว่าง การบำรุงรักษาเชิงป้องกัน (Preventive Maintenance) …</li><li>อธิบายขั้นตอนการตรวจสอบและแก้ไขข้อผิดพลาดของระบบ PLC (Troubleshooting) …</li><li>จากภาพการตรวจสอบสถานะการทำงานของ PLC ด้วย GX Works3 Monitor ให้อธิบายว่าการตรวจสอบสถานะ Input และ Output …</li><li>ยกตัวอย่างสาเหตุของความผิดพลาด (Error Cause) ของระบบ PLC อย่างน้อย 3 กรณี …</li><li>อธิบายหลักการป้องกันความเสียหายของ PLC ที่เกิดจากไฟกระชาก ความร้อน และสัญญาณรบกวนทางไฟฟ้า …</li></ul>
+        </div>
+      </div>
+      <div class="section warn">
+        <div class="section-header"><span class="icon">⚠️</span> ข้อควรระวังด้านความปลอดภัย (ใบงานปฏิบัติ)</div>
+        <div class="section-body">
+          <ul class="mini"><li>ถอดปลั๊กแหล่งจ่ายไฟหรือกดสวิตช์ฉุกเฉินก่อนต่อ/แก้ไขสายไฟทุกครั้ง และจ่ายไฟได้เมื่อครูผู้สอนตรวจสอบแล้วเท่านั้น</li><li>ตรวจสอบแรงดันและขั้วของแหล่งจ่ายให้ตรงกับที่ระบุในคู่มือชุดฝึกก่อนจ่ายไฟ ห้ามต่อสายขณะมีไฟ</li><li>สวมรองเท้าหุ้มส้น ไม่สวมเครื่องประดับโลหะ และไม่วางของเหลวบนโต๊ะปฏิบัติงาน</li><li>ตัดแหล่งจ่ายไฟและตรวจสอบด้วยมัลติมิเตอร์ว่าไม่มีแรงดันค้างก่อนจับต้องจุดต่อสายทุกครั้ง</li><li>ไม่ถอดหรือเปลี่ยนอุปกรณ์ใด ๆ โดยไม่ได้รับอนุญาตจากครูผู้สอน</li></ul>
+        </div>
+      </div>
+      <div class="section">
+        <div class="section-header"><span class="icon">🔧</span> 6. เชื่อมโยงกับใบงานปฏิบัติที่ 10</div>
+        <div class="section-body">
+          <p><span class="accent">การตรวจสอบและบำรุงรักษา PLC</span><br>เวลาปฏิบัติ 3 ชั่วโมง · ทำแบบทดสอบหลังเรียนหน่วยที่ 10 หลังทบทวน</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">EN-132-006 โปรแกรมเมเบิลลอจิกคอนโทรลเลอร์ · อาจารย์ศิวณุ เหล่าบุตรสา · สาขาวิชาวิศวกรรมเครื่องกลและเมคคาทรอนิกส์ มหาวิทยาลัยกาฬสินธุ์ · ภาคการศึกษาที่ 2/2568</div>
+</div>
+</body>
+</html>

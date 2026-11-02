@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Review Sheet 03 - การใช้งาน PLC</title>
+<link rel="stylesheet" href="sheet.css">
+</head>
+<body>
+<div class="toolbar"><button onclick="window.print()">🖨️ พิมพ์ / บันทึก PDF</button></div>
+<div class="page">
+
+  <div class="sheet-header">
+    <div>
+      <div class="title">⚙️ Review Sheet หน่วยที่ 3 — การใช้งาน PLC</div>
+      <div class="sub">EN-132-006 Programmable Logic Controller (PLC) · Using the PLC with GX Works3</div>
+    </div>
+    <div class="meta">
+      สัปดาห์ที่ 3 · ท 2 / ป 3 ชม. · CLO1<br>
+      ใบงานปฏิบัติที่ 3
+    </div>
+  </div>
+
+  <div class="columns">
+    <div class="col">
+      <div class="section">
+        <div class="section-header"><span class="icon">📌</span> 1. สาระสำคัญ</div>
+        <div class="section-body">
+          <p>การใช้งาน PLC ในระบบอุตสาหกรรมจำเป็นต้องอาศัยโปรแกรม GX Works3 ของ Mitsubishi Electric ซึ่งเป็นซอฟต์แวร์ที่ใช้เขียนและจัดการโปรแกรมควบคุม PLC ตระกูล MELSEC iQ-F และ iQ-R การเรียนรู้ในหน่วยนี้ครอบคลุมตั้งแต่การติดตั้งโปรแกรม การทำความเข้าใจส่วนประกอบต่าง ๆ ของโปรแกรม การเชื่อมต่อ PLC กับคอมพิวเตอร์ผ่าน Ethernet การเขียนและอ่านข้อมูลจาก PLC การจำลองการทำงานโดยไม่ต้องใช้ PLC จริง และการตรวจสอบการทำงานแบบเรียลไทม์ ซึ่งทักษะเหล่านี้เป็นพื้นฐานสำคัญสำหรับการประยุกต์ใช้ PLC ในงานอุตสาหกรรมจริง จุดประสงค์การเรียน …</p>
+        </div>
+      </div>
+      <div class="section">
+        <div class="section-header"><span class="icon">🎯</span> 2. จุดประสงค์การเรียน (ทั่วไป)</div>
+        <div class="section-body">
+          <ul class="mini"><li>สามารถติดตั้งโปรแกรม GX Works3 และอัปเดตระบบให้พร้อมใช้งานได้</li><li>สามารถอธิบายส่วนประกอบของโปรแกรม GX Works3 ได้</li><li>สามารถเชื่อมต่อ PLC กับคอมพิวเตอร์ผ่านพอร์ต USB หรือ Ethernet ได้อย่างถูกต้อง</li><li>สามารถเขียนและอ่านข้อมูลจาก PLC ได้</li><li>สามารถใช้ฟังก์ชัน Simulation เพื่อจำลองการทำงานของโปรแกรมได้</li><li>สามารถตรวจสอบและติดตามการทำงานของระบบ PLC แบบเรียลไทม์ได้</li></ul>
+        </div>
+      </div>
+      <div class="section">
+        <div class="section-header"><span class="icon">🧩</span> 3. หัวข้อเนื้อหาในหน่วย</div>
+        <div class="section-body">
+          <ul class="mini"><li>3.1 ติดตั้งโปรแกรม GX Works3 และอัปเดตระบบให้พร้อมใช้งาน</li><li>3.2 ส่วนประกอบของโปรแกรม GX Works3</li><li>3.3 การเชื่อมต่อ PLC กับคอมพิวเตอร์</li><li>3.4 การเขียนและอ่านข้อมูลจาก PLC</li><li>3.5 การจำลองการทำงานของโปรแกรมในระบบ PLC</li><li>3.6 การตรวจสอบและติดตามการทำงานของระบบ PLC แบบเรียลไทม์</li></ul>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="section">
+        <div class="section-header"><span class="icon">📝</span> 4. บทสรุป</div>
+        <div class="section-body">
+          <p>โปรแกรม GX Works3 ใช้สำหรับเขียน ตรวจสอบ และถ่ายโอนโปรแกรมของ PLC ตระกูล MELSEC iQ-F การทำงานเริ่มจากติดตั้งโปรแกรม สร้างโปรเจกต์ เลือกรุ่น CPU ตั้งค่าการเชื่อมต่อผ่าน Ethernet แล้วจึงเขียนโปรแกรม (Write) และอ่านโปรแกรม (Read) จาก PLC นอกจากนี้ยังสามารถใช้ Simulation ทดสอบโปรแกรมโดยไม่ต้องต่อ PLC จริง และใช้ Monitor ตรวจสอบสถานะของอุปกรณ์แบบเรียลไทม์ เพื่อค้นหาข้อผิดพลาดได้อย่างรวดเร็ว</p>
+        </div>
+      </div>
+      <div class="section">
+        <div class="section-header"><span class="icon">❓</span> 5. คำถามทบทวน (จากแบบฝึกหัดท้ายหน่วย)</div>
+        <div class="section-body">
+          <ul class="mini"><li>จงอธิบายขั้นตอนการสร้างโปรเจกต์ใหม่ในโปรแกรม GX Works3</li><li>จงอธิบายขั้นตอนการเชื่อมต่อ PLC กับคอมพิวเตอร์ผ่านพอร์ต Ethernet</li><li>จงเปรียบเทียบความแตกต่างระหว่างการเขียนข้อมูลลง PLC (Write) และการอ่านข้อมูลจาก PLC (Read)</li><li>จงอธิบายประโยชน์ของการจำลองการทำงานของ PLC ด้วยโปรแกรม GX Simulator3</li><li>จงอธิบายการใช้งานโหมด Monitor ในการตรวจสอบและติดตามการทำงานของระบบ PLC แบบเรียลไทม์</li><li>จงอธิบายขั้นตอนและข้อกำหนดเบื้องต้น (System Requirement) ในการติดตั้งโปรแกรม GX Works3 ลงในเครื่องคอมพิวเตอร์</li></ul>
+        </div>
+      </div>
+      <div class="section warn">
+        <div class="section-header"><span class="icon">⚠️</span> ข้อควรระวังด้านความปลอดภัย (ใบงานปฏิบัติ)</div>
+        <div class="section-body">
+          <ul class="mini"><li>ถอดปลั๊กแหล่งจ่ายไฟหรือกดสวิตช์ฉุกเฉินก่อนต่อ/แก้ไขสายไฟทุกครั้ง และจ่ายไฟได้เมื่อครูผู้สอนตรวจสอบแล้วเท่านั้น</li><li>ตรวจสอบแรงดันและขั้วของแหล่งจ่ายให้ตรงกับที่ระบุในคู่มือชุดฝึกก่อนจ่ายไฟ ห้ามต่อสายขณะมีไฟ</li><li>สวมรองเท้าหุ้มส้น ไม่สวมเครื่องประดับโลหะ และไม่วางของเหลวบนโต๊ะปฏิบัติงาน</li><li>ห้ามถอดสาย LAN หรือปิดไฟขณะกำลัง Write โปรแกรมลง PLC เพราะอาจทำให้ข้อมูลเสียหาย</li></ul>
+        </div>
+      </div>
+      <div class="section">
+        <div class="section-header"><span class="icon">🔧</span> 6. เชื่อมโยงกับใบงานปฏิบัติที่ 3</div>
+        <div class="section-body">
+          <p><span class="accent">การเชื่อมต่อ PLC กับคอมพิวเตอร์และการใช้งานโปรแกรม GX Works3</span><br>เวลาปฏิบัติ 3 ชั่วโมง · ทำแบบทดสอบหลังเรียนหน่วยที่ 3 หลังทบทวน</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">EN-132-006 โปรแกรมเมเบิลลอจิกคอนโทรลเลอร์ · อาจารย์ศิวณุ เหล่าบุตรสา · สาขาวิชาวิศวกรรมเครื่องกลและเมคคาทรอนิกส์ มหาวิทยาลัยกาฬสินธุ์ · ภาคการศึกษาที่ 2/2568</div>
+</div>
+</body>
+</html>

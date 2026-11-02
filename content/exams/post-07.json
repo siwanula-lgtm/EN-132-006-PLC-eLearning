@@ -1,0 +1,289 @@
+{
+  "moduleId": "07",
+  "kind": "post",
+  "title": "Communication between PLC and Other Devices",
+  "titleTh": "การสื่อสารระหว่าง PLC กับอุปกรณ์อื่น ๆ",
+  "timeMinutes": 15,
+  "questions": [
+    {
+      "id": 1,
+      "question": "ส่วนประกอบใดไม่ใช่ส่วนหนึ่งของเฟรมข้อมูล Modbus RTU",
+      "choices": [
+        {
+          "key": "ก",
+          "text": "Address"
+        },
+        {
+          "key": "ข",
+          "text": "CRC"
+        },
+        {
+          "key": "ค",
+          "text": "Data"
+        },
+        {
+          "key": "ง",
+          "text": "Function Code"
+        },
+        {
+          "key": "จ",
+          "text": "IP Header"
+        }
+      ],
+      "answer": "จ",
+      "explanation": "คำตอบที่ถูกต้องคือ ข้อ จ. IP Header"
+    },
+    {
+      "id": 2,
+      "question": "RS-485 ใช้สายสัญญาณกี่เส้นในการสื่อสาร",
+      "choices": [
+        {
+          "key": "ก",
+          "text": "4 เส้น"
+        },
+        {
+          "key": "ข",
+          "text": "2 เส้น (A+ และ B-)"
+        },
+        {
+          "key": "ค",
+          "text": "1 เส้น"
+        },
+        {
+          "key": "ง",
+          "text": "6 เส้น"
+        },
+        {
+          "key": "จ",
+          "text": "3 เส้น (TX, RX, GND)"
+        }
+      ],
+      "answer": "ข",
+      "explanation": "คำตอบที่ถูกต้องคือ ข้อ ข. 2 เส้น (A+ และ B-)"
+    },
+    {
+      "id": 3,
+      "question": "Modbus Protocol ใช้หลักการสื่อสารแบบใด",
+      "choices": [
+        {
+          "key": "ก",
+          "text": "Master–Slave (Client–Server)"
+        },
+        {
+          "key": "ข",
+          "text": "Mesh Network"
+        },
+        {
+          "key": "ค",
+          "text": "Broadcast เท่านั้น"
+        },
+        {
+          "key": "ง",
+          "text": "Ring Network"
+        },
+        {
+          "key": "จ",
+          "text": "Peer-to-Peer"
+        }
+      ],
+      "answer": "ก",
+      "explanation": "คำตอบที่ถูกต้องคือ ข้อ ก. Master–Slave (Client–Server)"
+    },
+    {
+      "id": 4,
+      "question": "ข้อใดแสดงให้เห็นถึงข้อดีของ RS-485 เหนือ RS-232 ได้ชัดเจนที่สุด",
+      "choices": [
+        {
+          "key": "ก",
+          "text": "ใช้สายน้อยกว่า"
+        },
+        {
+          "key": "ข",
+          "text": "ราคาถูกกว่า"
+        },
+        {
+          "key": "ค",
+          "text": "ติดตั้งง่ายกว่า RS-232"
+        },
+        {
+          "key": "ง",
+          "text": "เชื่อมต่อกับ Internet ได้โดยตรง"
+        },
+        {
+          "key": "จ",
+          "text": "รองรับอุปกรณ์ได้ถึง 32 ตัว ระยะไกลถึง 1,200 เมตร"
+        }
+      ],
+      "answer": "จ",
+      "explanation": "คำตอบที่ถูกต้องคือ ข้อ จ. รองรับอุปกรณ์ได้ถึง 32 ตัว ระยะไกลถึง 1,200 เมตร"
+    },
+    {
+      "id": 5,
+      "question": "V-net IoT เป็นเทคโนโลยีของบริษัทใด",
+      "choices": [
+        {
+          "key": "ก",
+          "text": "Omron"
+        },
+        {
+          "key": "ข",
+          "text": "Mitsubishi Electric"
+        },
+        {
+          "key": "ค",
+          "text": "Siemens"
+        },
+        {
+          "key": "ง",
+          "text": "Schneider Electric"
+        },
+        {
+          "key": "จ",
+          "text": "Allen-Bradley"
+        }
+      ],
+      "answer": "ข",
+      "explanation": "คำตอบที่ถูกต้องคือ ข้อ ข. Mitsubishi Electric"
+    },
+    {
+      "id": 6,
+      "question": "Modbus TCP แตกต่างจาก Modbus RTU ในด้านใดมากที่สุด",
+      "choices": [
+        {
+          "key": "ก",
+          "text": "ไม่มี Address"
+        },
+        {
+          "key": "ข",
+          "text": "ไม่รองรับ PLC Mitsubishi"
+        },
+        {
+          "key": "ค",
+          "text": "ใช้เครือข่าย Ethernet แทน RS-485"
+        },
+        {
+          "key": "ง",
+          "text": "ใช้สาย RS-232 เท่านั้น"
+        },
+        {
+          "key": "จ",
+          "text": "ไม่มีความแตกต่าง"
+        }
+      ],
+      "answer": "ค",
+      "explanation": "คำตอบที่ถูกต้องคือ ข้อ ค. ใช้เครือข่าย Ethernet แทน RS-485"
+    },
+    {
+      "id": 7,
+      "question": "ในระบบ V-net IoT ข้อมูลจาก PLC ไหลผ่านอุปกรณ์ใดก่อนถึง Cloud",
+      "choices": [
+        {
+          "key": "ก",
+          "text": "Dashboard"
+        },
+        {
+          "key": "ข",
+          "text": "Power Supply"
+        },
+        {
+          "key": "ค",
+          "text": "V-net IoT Gateway"
+        },
+        {
+          "key": "ง",
+          "text": "Sensor โดยตรง"
+        },
+        {
+          "key": "จ",
+          "text": "HMI"
+        }
+      ],
+      "answer": "ค",
+      "explanation": "คำตอบที่ถูกต้องคือ ข้อ ค. V-net IoT Gateway"
+    },
+    {
+      "id": 8,
+      "question": "Function Code 03 ใน Modbus Protocol ทำหน้าที่ใด",
+      "choices": [
+        {
+          "key": "ก",
+          "text": "อ่านข้อมูลจาก Holding Registers"
+        },
+        {
+          "key": "ข",
+          "text": "ส่ง Broadcast"
+        },
+        {
+          "key": "ค",
+          "text": "เขียนข้อมูลลง Coil"
+        },
+        {
+          "key": "ง",
+          "text": "ตรวจสอบ CRC"
+        },
+        {
+          "key": "จ",
+          "text": "รีสตาร์ตอุปกรณ์"
+        }
+      ],
+      "answer": "ก",
+      "explanation": "คำตอบที่ถูกต้องคือ ข้อ ก. อ่านข้อมูลจาก Holding Registers"
+    },
+    {
+      "id": 9,
+      "question": "ข้อใดเป็นประโยชน์ของ V-net IoT ในงานอุตสาหกรรม",
+      "choices": [
+        {
+          "key": "ก",
+          "text": "ลดจำนวน Sensor ในโรงงาน"
+        },
+        {
+          "key": "ข",
+          "text": "ตรวจสอบสถานะเครื่องจักรแบบเรียลไทม์จากระยะไกลได้"
+        },
+        {
+          "key": "ค",
+          "text": "ลดขนาดของโรงงาน"
+        },
+        {
+          "key": "ง",
+          "text": "ทำให้ PLC ทำงานเร็วขึ้น"
+        },
+        {
+          "key": "จ",
+          "text": "ใช้แทน HMI ได้ทั้งหมด"
+        }
+      ],
+      "answer": "ข",
+      "explanation": "คำตอบที่ถูกต้องคือ ข้อ ข. ตรวจสอบสถานะเครื่องจักรแบบเรียลไทม์จากระยะไกลได้"
+    },
+    {
+      "id": 10,
+      "question": "การเลือกใช้ Modbus TCP แทน Modbus RTU เหมาะสมกับสถานการณ์ใด",
+      "choices": [
+        {
+          "key": "ก",
+          "text": "เชื่อมต่อผ่าน Bluetooth"
+        },
+        {
+          "key": "ข",
+          "text": "เชื่อมต่อ 2 อุปกรณ์ระยะใกล้ผ่าน RS-232"
+        },
+        {
+          "key": "ค",
+          "text": "ใช้กับโรงงานที่ไม่มีไฟฟ้า"
+        },
+        {
+          "key": "ง",
+          "text": "ต้องการประหยัดต้นทุนสายสัญญาณ"
+        },
+        {
+          "key": "จ",
+          "text": "ต้องการเชื่อมต่อกับ SCADA ผ่านเครือข่าย Ethernet ระยะไกล"
+        }
+      ],
+      "answer": "จ",
+      "explanation": "คำตอบที่ถูกต้องคือ ข้อ จ. ต้องการเชื่อมต่อกับ SCADA ผ่านเครือข่าย Ethernet ระยะไกล"
+    }
+  ]
+}

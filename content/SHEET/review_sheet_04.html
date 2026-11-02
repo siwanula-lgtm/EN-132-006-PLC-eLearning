@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Review Sheet 04 - การเขียนโปรแกรมควบคุมด้วยคำสั่งพื้นฐานของโปรแกรมเมเบิลลอจิกคอนโทรลเลอร์ (PLC)</title>
+<link rel="stylesheet" href="sheet.css">
+</head>
+<body>
+<div class="toolbar"><button onclick="window.print()">🖨️ พิมพ์ / บันทึก PDF</button></div>
+<div class="page">
+
+  <div class="sheet-header">
+    <div>
+      <div class="title">⚙️ Review Sheet หน่วยที่ 4 — การเขียนโปรแกรมควบคุมด้วยคำสั่งพื้นฐานของโปรแกรมเมเบิลลอจิกคอนโทรลเลอร์ (PLC)</div>
+      <div class="sub">EN-132-006 Programmable Logic Controller (PLC) · Basic PLC Programming Instructions</div>
+    </div>
+    <div class="meta">
+      สัปดาห์ที่ 4–5 · ท 4 / ป 6 ชม. · CLO1<br>
+      ใบงานปฏิบัติที่ 4
+    </div>
+  </div>
+
+  <div class="columns">
+    <div class="col">
+      <div class="section">
+        <div class="section-header"><span class="icon">📌</span> 1. สาระสำคัญ</div>
+        <div class="section-body">
+          <p>การเขียนโปรแกรมควบคุมด้วยคำสั่งพื้นฐานของ PLC ในโปรแกรม GX Works3 ประกอบด้วยคำสั่งหลัก ได้แก่ AND, OR, Interlock Input/Output, Self Holding, SET/RESET, Zone Reset, Timer, Counter, Rising Edge, Falling Edge และ MOV ซึ่งเป็นพื้นฐานสำคัญในการออกแบบระบบควบคุมอัตโนมัติทางอุตสาหกรรม การเข้าใจหลักการทำงานของคำสั่งเหล่านี้ทำให้สามารถเขียนโปรแกรมควบคุมกระบวนการผลิตได้อย่างมีประสิทธิภาพและปลอดภัย จุดประสงค์การเรียน (จุดประสงค์ทั่วไป) จุดประสงค์เชิงพฤติกรรม</p>
+        </div>
+      </div>
+      <div class="section">
+        <div class="section-header"><span class="icon">🎯</span> 2. จุดประสงค์การเรียน (ทั่วไป)</div>
+        <div class="section-body">
+          <ul class="mini"><li>อธิบายหลักการทำงานของคำสั่งพื้นฐาน AND, OR, Interlock ใน PLC</li><li>อธิบายและใช้คำสั่ง Self Holding, SET/RESET และ Zone Reset ได้</li><li>อธิบายการใช้คำสั่ง Timer และ Counter ในการควบคุมระบบ</li><li>อธิบายการตรวจจับขอบสัญญาณ Rising Edge และ Falling Edge</li><li>อธิบายและใช้คำสั่ง MOV ในการย้ายข้อมูลภายใน PLC ได้</li></ul>
+        </div>
+      </div>
+      <div class="section">
+        <div class="section-header"><span class="icon">🧩</span> 3. หัวข้อเนื้อหาในหน่วย</div>
+        <div class="section-body">
+          <ul class="mini"><li>4.1 คำสั่ง AND</li><li>4.2 คำสั่ง OR Gate</li><li>4.4 คำสั่ง Interlock Output</li><li>4.5 คำสั่ง Self Holding</li><li>4.6 คำสั่ง SET / RESET</li><li>4.7 คำสั่ง Zone Reset</li><li>4.8 คำสั่ง Timer</li><li>4.9 คำสั่ง Counter</li><li>4.10 คำสั่ง Rising (ขอบขาขึ้น)</li><li>4.11 คำสั่ง Falling (ขอบขาลง)</li><li>4.12 คำสั่ง MOV</li></ul>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="section">
+        <div class="section-header"><span class="icon">📝</span> 4. บทสรุป</div>
+        <div class="section-body">
+          <p>คำสั่งพื้นฐานของ PLC ได้แก่ AND, OR, Interlock, Self Holding, SET/RESET, Zone Reset, Timer, Counter, Rising, Falling และ MOV คำสั่งเหล่านี้ใช้ประกอบกันเป็นโปรแกรมควบคุมตามลำดับและเงื่อนไข เช่น การเริ่ม-หยุดมอเตอร์ การหน่วงเวลา และการนับชิ้นงาน การออกแบบโปรแกรมที่ดีต้องคำนึงถึงความปลอดภัย เช่น การทำ Interlock เพื่อไม่ให้เอาต์พุตที่ขัดแย้งกันทำงานพร้อมกัน และการทดสอบด้วย Monitor ก่อนใช้งานจริงทุกครั้ง</p>
+        </div>
+      </div>
+      <div class="section">
+        <div class="section-header"><span class="icon">❓</span> 5. คำถามทบทวน (จากแบบฝึกหัดท้ายหน่วย)</div>
+        <div class="section-body">
+          <ul class="mini"><li>อธิบายหลักการทำงานของคำสั่ง AND Gate และยกตัวอย่างการใช้งานในโปรแกรม GX Works3 …</li><li>อธิบายคำสั่ง OR Gate พร้อมวาดตัวอย่าง Ladder Diagram ที่ใช้อินพุตแบบขนาน …</li><li>อธิบายหลักการของคำสั่ง Interlock Input (IL / ILC) …</li><li>อธิบายหลักการของคำสั่ง Self Holding พร้อมวาดวงจร Ladder Diagram สำหรับระบบ Start/Stop Motor …</li><li>อธิบายความแตกต่างของคำสั่ง SET และ RESET พร้อมยกตัวอย่างการประยุกต์ใช้งานในระบบควบคุมที่ต้อง &quot;จำสถานะ&quot; เช่น …</li><li>อธิบายการทำงานของคำสั่ง Timer (T) และระบุความแตกต่างระหว่าง ON Delay Timer กับ OFF Delay Timer …</li></ul>
+        </div>
+      </div>
+      <div class="section warn">
+        <div class="section-header"><span class="icon">⚠️</span> ข้อควรระวังด้านความปลอดภัย (ใบงานปฏิบัติ)</div>
+        <div class="section-body">
+          <ul class="mini"><li>ถอดปลั๊กแหล่งจ่ายไฟหรือกดสวิตช์ฉุกเฉินก่อนต่อ/แก้ไขสายไฟทุกครั้ง และจ่ายไฟได้เมื่อครูผู้สอนตรวจสอบแล้วเท่านั้น</li><li>ตรวจสอบแรงดันและขั้วของแหล่งจ่ายให้ตรงกับที่ระบุในคู่มือชุดฝึกก่อนจ่ายไฟ ห้ามต่อสายขณะมีไฟ</li><li>สวมรองเท้าหุ้มส้น ไม่สวมเครื่องประดับโลหะ และไม่วางของเหลวบนโต๊ะปฏิบัติงาน</li><li>ตรวจสอบสถานะเอาต์พุตก่อนสั่ง RUN ทุกครั้ง โดยเฉพาะเมื่อต่อมอเตอร์หรือรีเลย์กับเอาต์พุต</li></ul>
+        </div>
+      </div>
+      <div class="section">
+        <div class="section-header"><span class="icon">🔧</span> 6. เชื่อมโยงกับใบงานปฏิบัติที่ 4</div>
+        <div class="section-body">
+          <p><span class="accent">การเขียนโปรแกรมควบคุมด้วยคำสั่งพื้นฐานของ PLC</span><br>เวลาปฏิบัติ 6 ชั่วโมง · ทำแบบทดสอบหลังเรียนหน่วยที่ 4 หลังทบทวน</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">EN-132-006 โปรแกรมเมเบิลลอจิกคอนโทรลเลอร์ · อาจารย์ศิวณุ เหล่าบุตรสา · สาขาวิชาวิศวกรรมเครื่องกลและเมคคาทรอนิกส์ มหาวิทยาลัยกาฬสินธุ์ · ภาคการศึกษาที่ 2/2568</div>
+</div>
+</body>
+</html>

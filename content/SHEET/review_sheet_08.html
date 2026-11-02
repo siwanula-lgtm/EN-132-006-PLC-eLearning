@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Review Sheet 08 - การประยุกต์ใช้ PLC ควบคุมอุปกรณ์อื่น ๆ</title>
+<link rel="stylesheet" href="sheet.css">
+</head>
+<body>
+<div class="toolbar"><button onclick="window.print()">🖨️ พิมพ์ / บันทึก PDF</button></div>
+<div class="page">
+
+  <div class="sheet-header">
+    <div>
+      <div class="title">⚙️ Review Sheet หน่วยที่ 8 — การประยุกต์ใช้ PLC ควบคุมอุปกรณ์อื่น ๆ</div>
+      <div class="sub">EN-132-006 Programmable Logic Controller (PLC) · PLC Applications for Controlling Devices</div>
+    </div>
+    <div class="meta">
+      สัปดาห์ที่ 10–13 · ท 8 / ป 12 ชม. · CLO1<br>
+      ใบงานปฏิบัติที่ 8
+    </div>
+  </div>
+
+  <div class="columns">
+    <div class="col">
+      <div class="section">
+        <div class="section-header"><span class="icon">📌</span> 1. สาระสำคัญ</div>
+        <div class="section-body">
+          <p>การประยุกต์ใช้ PLC ควบคุมอุปกรณ์อื่น ๆ เป็นพื้นฐานสำคัญของระบบอัตโนมัติทางอุตสาหกรรม โดยประกอบด้วยอุปกรณ์ตรวจจับ (Sensors) เช่น Inductive, Capacitive, Photo Proximity Sensor, Fiber Optic Sensor และ Encoder ที่ทำหน้าที่ส่งสัญญาณให้ PLC ประมวลผล และอุปกรณ์ขับเคลื่อน (Actuators) เช่น Tower Lamp, Relay, DC Motor, Stepper Motor, Servo Motor และ Solenoid Valve ที่ทำหน้าที่แปลงสัญญาณเป็นการกระทำจริง การเข้าใจหลักการทำงานและการต่อใช้งานร่วมกับ PLC ถือเป็นทักษะสำคัญของงาน Mechatronics จุดประสงค์การเรียน (จุดประสงค์ทั่วไป) …</p>
+        </div>
+      </div>
+      <div class="section">
+        <div class="section-header"><span class="icon">🎯</span> 2. จุดประสงค์การเรียน (ทั่วไป)</div>
+        <div class="section-body">
+          <ul class="mini"><li>อธิบายหลักการทำงานของเซนเซอร์ประเภทต่าง ๆ ที่ใช้ร่วมกับ PLC</li><li>อธิบายหลักการทำงานและการต่อใช้งาน Inductive, Capacitive, Photo และ Fiber Optic Sensor</li><li>อธิบายหลักการทำงานของ Encoder และการประยุกต์ใช้วัดตำแหน่งและความเร็ว</li><li>อธิบายการควบคุม Tower Lamp, Relay, DC Motor, Stepper Motor และ Servo Motor ด้วย PLC</li><li>อธิบายหลักการทำงานและการควบคุม Solenoid Valve ในระบบนิวเมติกส์ด้วย PLC</li></ul>
+        </div>
+      </div>
+      <div class="section">
+        <div class="section-header"><span class="icon">🧩</span> 3. หัวข้อเนื้อหาในหน่วย</div>
+        <div class="section-body">
+          <ul class="mini"><li>8.1 Inductive Proximity Sensor</li><li>8.2 Capacitive Proximity Sensor</li><li>8.3 Photo Proximity Sensor</li><li>8.4 Fiber Optic Sensor</li><li>8.5 Encoder</li><li>8.6 Tower Lamp</li><li>8.7 Relay</li><li>8.8 DC Motor</li><li>8.9 Stepper Motor</li><li>8.10 Servo Motor</li><li>8.11 Solenoid Valve</li></ul>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="section">
+        <div class="section-header"><span class="icon">📝</span> 4. บทสรุป</div>
+        <div class="section-body">
+          <p>PLC สามารถควบคุมอุปกรณ์อื่นได้หลากหลาย ทั้งเซนเซอร์ตรวจจับชนิดต่าง ๆ Encoder Tower Lamp Relay และมอเตอร์ชนิด DC, Stepper และ Servo รวมถึง Solenoid Valve การเลือกอุปกรณ์และวิธีต่อต้องสอดคล้องกับชนิดของอินพุตและเอาต์พุตของ PLC การควบคุมตำแหน่งและความเร็วของมอเตอร์ใช้คำสั่งเฉพาะ เช่น DDRVI และ DDRVA และการใช้ Inverter ช่วยควบคุมความเร็วของมอเตอร์ไฟฟ้ากระแสสลับได้อย่างมีประสิทธิภาพ</p>
+        </div>
+      </div>
+      <div class="section">
+        <div class="section-header"><span class="icon">❓</span> 5. คำถามทบทวน (จากแบบฝึกหัดท้ายหน่วย)</div>
+        <div class="section-body">
+          <ul class="mini"><li>อธิบายหลักการทำงานของ Inductive Proximity Sensor …</li><li>เปรียบเทียบความแตกต่างระหว่าง Inductive Proximity Sensor และ Capacitive Proximity Sensor …</li><li>อธิบายหลักการทำงานของ Photoelectric Sensor และอธิบายลักษณะของการติดตั้งแบบ Through-beam, Retro-reflective และ …</li><li>อธิบายการทำงานของ Fiber Optic Sensor …</li><li>อธิบายหลักการทำงานของ Encoder และยกตัวอย่างการประยุกต์ใช้ Encoder ในระบบควบคุมการเคลื่อนไหว เช่น …</li><li>อธิบายหน้าที่ของ Tower Lamp ในระบบอัตโนมัติ และอธิบายความหมายของแต่ละสี (แดง เหลือง เขียว) …</li></ul>
+        </div>
+      </div>
+      <div class="section warn">
+        <div class="section-header"><span class="icon">⚠️</span> ข้อควรระวังด้านความปลอดภัย (ใบงานปฏิบัติ)</div>
+        <div class="section-body">
+          <ul class="mini"><li>ถอดปลั๊กแหล่งจ่ายไฟหรือกดสวิตช์ฉุกเฉินก่อนต่อ/แก้ไขสายไฟทุกครั้ง และจ่ายไฟได้เมื่อครูผู้สอนตรวจสอบแล้วเท่านั้น</li><li>ตรวจสอบแรงดันและขั้วของแหล่งจ่ายให้ตรงกับที่ระบุในคู่มือชุดฝึกก่อนจ่ายไฟ ห้ามต่อสายขณะมีไฟ</li><li>สวมรองเท้าหุ้มส้น ไม่สวมเครื่องประดับโลหะ และไม่วางของเหลวบนโต๊ะปฏิบัติงาน</li><li>ตรวจสอบว่าไม่มีสิ่งกีดขวางรอบแกนมอเตอร์ก่อนสั่งงาน และอยู่ห่างจากส่วนที่หมุน</li><li>ทดสอบด้วยความเร็วต่ำก่อนเสมอ และให้สวิตช์ฉุกเฉินอยู่ในตำแหน่งที่เอื้อมถึง</li></ul>
+        </div>
+      </div>
+      <div class="section">
+        <div class="section-header"><span class="icon">🔧</span> 6. เชื่อมโยงกับใบงานปฏิบัติที่ 8</div>
+        <div class="section-body">
+          <p><span class="accent">การประยุกต์ใช้ PLC ควบคุม Inverter และ Servo Motor</span><br>เวลาปฏิบัติ 12 ชั่วโมง · ทำแบบทดสอบหลังเรียนหน่วยที่ 8 หลังทบทวน</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">EN-132-006 โปรแกรมเมเบิลลอจิกคอนโทรลเลอร์ · อาจารย์ศิวณุ เหล่าบุตรสา · สาขาวิชาวิศวกรรมเครื่องกลและเมคคาทรอนิกส์ มหาวิทยาลัยกาฬสินธุ์ · ภาคการศึกษาที่ 2/2568</div>
+</div>
+</body>
+</html>

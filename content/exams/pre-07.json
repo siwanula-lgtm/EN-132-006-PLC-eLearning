@@ -1,0 +1,289 @@
+{
+  "moduleId": "07",
+  "kind": "pre",
+  "title": "Communication between PLC and Other Devices",
+  "titleTh": "การสื่อสารระหว่าง PLC กับอุปกรณ์อื่น ๆ",
+  "timeMinutes": 15,
+  "questions": [
+    {
+      "id": 1,
+      "question": "ข้อใดอธิบายลักษณะการสื่อสารของ RS-232 ได้ถูกต้องที่สุด",
+      "choices": [
+        {
+          "key": "ก",
+          "text": "ใช้สัญญาณ Differential ±2V"
+        },
+        {
+          "key": "ข",
+          "text": "Point-to-Point เชื่อมต่อ 2 อุปกรณ์ ระยะสั้นไม่เกิน 15 เมตร"
+        },
+        {
+          "key": "ค",
+          "text": "รองรับระยะทางสูงสุด 1,200 เมตร"
+        },
+        {
+          "key": "ง",
+          "text": "ใช้สาย Ethernet เชื่อมต่อ"
+        },
+        {
+          "key": "จ",
+          "text": "Multi-Drop เชื่อมต่อได้ 32 อุปกรณ์"
+        }
+      ],
+      "answer": "ข",
+      "explanation": "คำตอบที่ถูกต้องคือ ข้อ ข. Point-to-Point เชื่อมต่อ 2 อุปกรณ์ ระยะสั้นไม่เกิน 15 เมตร"
+    },
+    {
+      "id": 2,
+      "question": "RS-485 สามารถเชื่อมต่ออุปกรณ์ได้สูงสุดกี่ตัว",
+      "choices": [
+        {
+          "key": "ก",
+          "text": "64 ตัว"
+        },
+        {
+          "key": "ข",
+          "text": "16 ตัว"
+        },
+        {
+          "key": "ค",
+          "text": "8 ตัว"
+        },
+        {
+          "key": "ง",
+          "text": "32 ตัว"
+        },
+        {
+          "key": "จ",
+          "text": "2 ตัว"
+        }
+      ],
+      "answer": "ง",
+      "explanation": "คำตอบที่ถูกต้องคือ ข้อ ง. 32 ตัว"
+    },
+    {
+      "id": 3,
+      "question": "Modbus Protocol ถูกพัฒนาโดยบริษัทใด",
+      "choices": [
+        {
+          "key": "ก",
+          "text": "Allen-Bradley"
+        },
+        {
+          "key": "ข",
+          "text": "Modicon (Schneider Electric)"
+        },
+        {
+          "key": "ค",
+          "text": "Omron"
+        },
+        {
+          "key": "ง",
+          "text": "Siemens"
+        },
+        {
+          "key": "จ",
+          "text": "Mitsubishi Electric"
+        }
+      ],
+      "answer": "ข",
+      "explanation": "คำตอบที่ถูกต้องคือ ข้อ ข. Modicon (Schneider Electric)"
+    },
+    {
+      "id": 4,
+      "question": "Modbus RTU ใช้สื่อกลางชนิดใดในการสื่อสาร",
+      "choices": [
+        {
+          "key": "ก",
+          "text": "Wi-Fi"
+        },
+        {
+          "key": "ข",
+          "text": "Ethernet"
+        },
+        {
+          "key": "ค",
+          "text": "USB"
+        },
+        {
+          "key": "ง",
+          "text": "Bluetooth"
+        },
+        {
+          "key": "จ",
+          "text": "RS-232 / RS-485"
+        }
+      ],
+      "answer": "จ",
+      "explanation": "คำตอบที่ถูกต้องคือ ข้อ จ. RS-232 / RS-485"
+    },
+    {
+      "id": 5,
+      "question": "ข้อใดไม่ใช่ส่วนประกอบของเฟรมข้อมูล (Data Frame) ใน Modbus",
+      "choices": [
+        {
+          "key": "ก",
+          "text": "CRC"
+        },
+        {
+          "key": "ข",
+          "text": "Data"
+        },
+        {
+          "key": "ค",
+          "text": "IP Address"
+        },
+        {
+          "key": "ง",
+          "text": "Function Code"
+        },
+        {
+          "key": "จ",
+          "text": "Address"
+        }
+      ],
+      "answer": "ค",
+      "explanation": "คำตอบที่ถูกต้องคือ ข้อ ค. IP Address"
+    },
+    {
+      "id": 6,
+      "question": "การสื่อสารของ V-net IoT เชื่อมต่อข้อมูลจาก PLC ไปยังสิ่งใด",
+      "choices": [
+        {
+          "key": "ก",
+          "text": "ตัวต้านทานปรับค่าได้"
+        },
+        {
+          "key": "ข",
+          "text": "เฉพาะ HMI ในโรงงาน"
+        },
+        {
+          "key": "ค",
+          "text": "ระบบ Cloud ผ่านอินเทอร์เน็ต"
+        },
+        {
+          "key": "ง",
+          "text": "ระบบจ่ายไฟสำรอง"
+        },
+        {
+          "key": "จ",
+          "text": "เครื่องพิมพ์อุตสาหกรรม"
+        }
+      ],
+      "answer": "ค",
+      "explanation": "คำตอบที่ถูกต้องคือ ข้อ ค. ระบบ Cloud ผ่านอินเทอร์เน็ต"
+    },
+    {
+      "id": 7,
+      "question": "RS-485 ใช้สัญญาณไฟฟ้าชนิดใดเพื่อลดสัญญาณรบกวน",
+      "choices": [
+        {
+          "key": "ก",
+          "text": "PWM Signal"
+        },
+        {
+          "key": "ข",
+          "text": "Differential Signal ผ่านคู่สาย A(+) และ B(-)"
+        },
+        {
+          "key": "ค",
+          "text": "AC Signal"
+        },
+        {
+          "key": "ง",
+          "text": "Analog Signal 4-20 mA"
+        },
+        {
+          "key": "จ",
+          "text": "Single-ended Signal"
+        }
+      ],
+      "answer": "ข",
+      "explanation": "คำตอบที่ถูกต้องคือ ข้อ ข. Differential Signal ผ่านคู่สาย A(+) และ B(-)"
+    },
+    {
+      "id": 8,
+      "question": "Modbus TCP แตกต่างจาก Modbus RTU อย่างไร",
+      "choices": [
+        {
+          "key": "ก",
+          "text": "Modbus TCP ใช้ได้เฉพาะ Mitsubishi PLC"
+        },
+        {
+          "key": "ข",
+          "text": "Modbus TCP ใช้สาย RS-485"
+        },
+        {
+          "key": "ค",
+          "text": "Modbus TCP ช้ากว่า Modbus RTU"
+        },
+        {
+          "key": "ง",
+          "text": "Modbus TCP สื่อสารผ่าน Ethernet เครือข่าย TCP/IP"
+        },
+        {
+          "key": "จ",
+          "text": "ไม่มีความแตกต่าง"
+        }
+      ],
+      "answer": "ง",
+      "explanation": "คำตอบที่ถูกต้องคือ ข้อ ง. Modbus TCP สื่อสารผ่าน Ethernet เครือข่าย TCP/IP"
+    },
+    {
+      "id": 9,
+      "question": "ในระบบ V-net IoT ส่วนใดทำหน้าที่แปลงโปรโตคอลและส่งข้อมูลจาก PLC ไปยัง Cloud",
+      "choices": [
+        {
+          "key": "ก",
+          "text": "V-net IoT Gateway"
+        },
+        {
+          "key": "ข",
+          "text": "Dashboard"
+        },
+        {
+          "key": "ค",
+          "text": "HMI"
+        },
+        {
+          "key": "ง",
+          "text": "Sensor"
+        },
+        {
+          "key": "จ",
+          "text": "Power Supply"
+        }
+      ],
+      "answer": "ก",
+      "explanation": "คำตอบที่ถูกต้องคือ ข้อ ก. V-net IoT Gateway"
+    },
+    {
+      "id": 10,
+      "question": "การเลือกใช้ RS-485 แทน RS-232 เหมาะสมกับสถานการณ์ใด",
+      "choices": [
+        {
+          "key": "ก",
+          "text": "ต้องการเชื่อมต่อ 2 อุปกรณ์ระยะสั้น"
+        },
+        {
+          "key": "ข",
+          "text": "ต้องการส่งข้อมูลไป Cloud"
+        },
+        {
+          "key": "ค",
+          "text": "ต้องการใช้ Wi-Fi"
+        },
+        {
+          "key": "ง",
+          "text": "ต้องการสื่อสารผ่าน Ethernet"
+        },
+        {
+          "key": "จ",
+          "text": "ต้องการเชื่อมต่ออุปกรณ์หลายตัวในระยะไกล"
+        }
+      ],
+      "answer": "จ",
+      "explanation": "คำตอบที่ถูกต้องคือ ข้อ จ. ต้องการเชื่อมต่ออุปกรณ์หลายตัวในระยะไกล"
+    }
+  ]
+}
