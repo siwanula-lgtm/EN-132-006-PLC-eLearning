@@ -12,7 +12,7 @@ export default function PrevNextNav({ id, kind }: { id: string; kind: "module" |
       ? `หน่วยที่ ${Number(m.id)} ${m.titleTh}`
       : kind === "plan"
         ? `แผนการจัดการเรียนรู้ที่ ${Number(m.id)}`
-        : `ใบงานปฏิบัติที่ ${Number(m.id)}: ${m.labTitle}`;
+        : `ใบงานปฏิบัติหน่วยเรียนที่ ${Number(m.id)}`;
   const hover = kind === "module" ? "hover:border-blue-300 dark:hover:border-blue-700" : "hover:border-green-300 dark:hover:border-green-700";
 
   return (

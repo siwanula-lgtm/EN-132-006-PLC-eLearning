@@ -207,11 +207,11 @@
       "choices": [
         {
           "key": "ก",
-          "text": "FX5UJ"
+          "text": "FX5UJJ"
         },
         {
           "key": "ข",
-          "text": "FX5U"
+          "text": "FX5UJ"
         },
         {
           "key": "ค",
@@ -223,11 +223,11 @@
         },
         {
           "key": "จ",
-          "text": "FX5UC"
+          "text": "FX5UJC"
         }
       ],
       "answer": "ข",
-      "explanation": "คำตอบที่ถูกต้องคือ ข้อ ข. FX5U"
+      "explanation": "คำตอบที่ถูกต้องคือ ข้อ ข. FX5UJ"
     },
     {
       "id": 9,

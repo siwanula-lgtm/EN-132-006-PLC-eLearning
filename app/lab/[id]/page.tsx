@@ -20,8 +20,8 @@ export function generateMetadata({ params }: PageProps) {
   const mod = getModuleById(params.id);
   if (!mod) return { title: "Not Found" };
   return {
-    title: `ใบงานปฏิบัติที่ ${Number(mod.id)}: ${mod.labTitle} | ${course.code}`,
-    description: `ใบงานปฏิบัติที่ ${Number(mod.id)} - ${mod.labTitle}`,
+    title: `ใบงานปฏิบัติหน่วยเรียนที่ ${Number(mod.id)} | ${course.code}`,
+    description: `ใบงานปฏิบัติหน่วยเรียนที่ ${Number(mod.id)} - ${mod.labTitle}`,
   };
 }
 
@@ -42,7 +42,7 @@ export default async function LabPage({ params }: PageProps) {
           หน่วยที่ {Number(mod.id)}
         </Link>
         <span>/</span>
-        <span className="text-gray-900 dark:text-white font-medium">ใบงานปฏิบัติที่ {Number(mod.id)}</span>
+        <span className="text-gray-900 dark:text-white font-medium">ใบงานปฏิบัติหน่วยเรียนที่ {Number(mod.id)}</span>
       </nav>
 
       <div className="mb-8">
@@ -50,10 +50,10 @@ export default async function LabPage({ params }: PageProps) {
           ใบงานปฏิบัติ · สัปดาห์ที่ {mod.week} · ปฏิบัติ {mod.hoursP} ชั่วโมง
         </div>
         <h1 className="text-2xl md:text-3xl font-bold text-gray-900 dark:text-white mb-1">
-          ใบงานปฏิบัติที่ {Number(mod.id)}: {mod.labTitle}
+          ใบงานปฏิบัติหน่วยเรียนที่ {Number(mod.id)}
         </h1>
         <p className="text-sm text-gray-500 dark:text-gray-400">
-          หน่วยที่ {Number(mod.id)} {mod.titleTh} · {mod.clo}
+          {mod.labCount > 1 ? `${mod.labCount} ใบงาน: ` : ""}{mod.labTitle} · {mod.clo}
         </p>
       </div>
 

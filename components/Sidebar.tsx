@@ -136,7 +136,7 @@ export default function Sidebar({ isOpen, onClose }: SidebarProps) {
               <SidebarLink
                 key={mod.id}
                 href={`/lab/${mod.id}`}
-                label={`ใบงานที่ ${Number(mod.id)}: ${mod.labTitle}`}
+                label={`หน่วยที่ ${Number(mod.id)}: ${mod.labTitle}`}
                 isActive={pathname === `/lab/${mod.id}`}
                 onClick={onClose}
               />

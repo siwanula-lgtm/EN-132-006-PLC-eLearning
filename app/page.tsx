@@ -21,7 +21,7 @@ const totalP = modules.reduce((a, m) => a + m.hoursP, 0);
 
 const stats = [
   { icon: BookOpen, label: `${modules.length} หน่วยเรียน`, sub: `ท ${totalT} · ป ${totalP} ชั่วโมง`, color: "text-blue-600 dark:text-blue-400" },
-  { icon: FileEdit, label: `${modules.length} ใบงานปฏิบัติ`, sub: "Lab Worksheets", color: "text-green-600 dark:text-green-400" },
+  { icon: FileEdit, label: `${modules.reduce((a, m) => a + m.labCount, 0)} ใบงานปฏิบัติ`, sub: "Lab Worksheets", color: "text-green-600 dark:text-green-400" },
   { icon: ClipboardCheck, label: `${modules.length} แบบทบทวน`, sub: "Review Sheets", color: "text-orange-600 dark:text-orange-400" },
   { icon: PenSquare, label: `${modules.length * 2} แบบทดสอบ`, sub: "ก่อนเรียน / หลังเรียน", color: "text-purple-600 dark:text-purple-400" },
 ];
