@@ -187,7 +187,7 @@ export default function HomePage() {
               </p>
               <p className="text-sm text-gray-700 dark:text-gray-300 mb-2">{clo.text}</p>
               <p className="text-xs text-gray-500 dark:text-gray-400">
-                {related.length > 0 ? `หน่วยที่ ${related.join(", ")}` : "ประเมินจากจิตพิสัย รายงาน และการนำเสนอผลงาน"}
+                {related.length > 0 ? `หน่วยที่ ${related.join(", ")}` : "ประเมินจากจิตพิสัย การสืบค้นข้อมูล และการนำเสนอผลการปฏิบัติงาน"}
               </p>
             </div>
           );
