@@ -109,7 +109,7 @@ IDEC Corporation. (n.d.). *YW series 22 mm pushbutton switches* \[Product catalo
 
 Mitsubishi Electric Corporation. (2015). *Your first PLC: สำหรับผู้เริ่มต้นใช้งาน* (JY997D57401B) \[ฉบับแปลภาษาไทย\]. Mitsubishi Electric Corporation.
 
-Mitsubishi Electric Corporation. (n.d.). *MELSEC iQ-F FX5S/FX5UJJ/FX5UJ/FX5UJC user's manual (hardware)*. Mitsubishi Electric Corporation.
+Mitsubishi Electric Corporation. (n.d.). *MELSEC iQ-F FX5S/FX5UJ/FX5U/FX5UC user's manual (hardware)*. Mitsubishi Electric Corporation.
 
 ### กิจกรรมเสนอแนะ
 1\. นักศึกษาศึกษาเพิ่มเติมจากเอกสารและคู่มือที่เกี่ยวข้องกับอุปกรณ์อินพุต–เอาต์พุตของผู้ผลิตแต่ละราย
@@ -175,7 +175,7 @@ Mitsubishi Electric Corporation. (n.d.). *MELSEC iQ-F FX5S/FX5UJJ/FX5UJ/FX5UJC u
 <td><p>บริษัท ออโต ไดแด็กติก จำกัด. (2023). คู่มือ PLC และ GOT เบื้องต้น [เอกสารประกอบการเรียนรู้ PLC]. บริษัท ออโต ไดแด็กติก จำกัด.</p>
 <p>IDEC Corporation. (n.d.). YW series 22 mm pushbutton switches [Product catalog]. https://www.idec.com/</p>
 <p>Mitsubishi Electric Corporation. (2015). Your first PLC: สำหรับผู้เริ่มต้นใช้งาน (JY997D57401B) [ฉบับแปลภาษาไทย]. Mitsubishi Electric Corporation.</p>
-<p>Mitsubishi Electric Corporation. (n.d.). MELSEC iQ-F FX5S/FX5UJJ/FX5UJ/FX5UJC user's manual (hardware). Mitsubishi Electric Corporation.</p></td>
+<p>Mitsubishi Electric Corporation. (n.d.). MELSEC iQ-F FX5S/FX5UJ/FX5U/FX5UC user's manual (hardware). Mitsubishi Electric Corporation.</p></td>
 </tr>
 <tr class="even">
 <td>เอกสารใช้ประกอบ</td>

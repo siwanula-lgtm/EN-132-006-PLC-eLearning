@@ -61,7 +61,7 @@ Output Window (หน้าต่างผลลัพธ์)
 
 > 1\. Series รุ่นของ PLC ที่ต้องการใช้งาน เช่น FX5CPU
 >
-> 2\. Type ประเภทของหน่วยประมวลผล (เช่น FX5UJ, FX5UJC, FX5UJJ)
+> 2\. Type ประเภทของหน่วยประมวลผล (เช่น FX5U, FX5UC, FX5UJ)
 >
 > 3\. Program Language ภาษาที่ใช้เขียนโปรแกรม ซึ่งในกรณีนี้เลือกเป็น Ladder Diagram (LD)
 
@@ -394,6 +394,6 @@ International Electrotechnical Commission. (2013). *Programmable controllers—P
 
 Mitsubishi Electric Corporation. (2015). *Your first PLC: สำหรับผู้เริ่มต้นใช้งาน* (JY997D57401B) \[ฉบับแปลภาษาไทย\]. Mitsubishi Electric Corporation.
 
-Mitsubishi Electric Corporation. (n.d.). *MELSEC iQ-F FX5S/FX5UJJ/FX5UJ/FX5UJC user's manual (hardware)*. Mitsubishi Electric Corporation.
+Mitsubishi Electric Corporation. (n.d.). *MELSEC iQ-F FX5S/FX5UJ/FX5U/FX5UC user's manual (hardware)*. Mitsubishi Electric Corporation.
 
 Mitsubishi Electric Corporation. (n.d.). *MELSOFT GX Works3 operating manual* \[Software manual\]. https://www.mitsubishielectric.com/fa/

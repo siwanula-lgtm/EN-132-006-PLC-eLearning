@@ -183,7 +183,7 @@ Mitsubishi Electric Corporation. (2015). *Your first PLC: สำหรับผ�
 
 Mitsubishi Electric Corporation. (n.d.). *FX3S series programmable controllers user's manual: Hardware edition* (Manual No. JY997D48601). Mitsubishi Electric Corporation.
 
-Mitsubishi Electric Corporation. (n.d.). *MELSEC iQ-F FX5S/FX5UJJ/FX5UJ/FX5UJC user's manual (hardware)*. Mitsubishi Electric Corporation.
+Mitsubishi Electric Corporation. (n.d.). *MELSEC iQ-F FX5S/FX5UJ/FX5U/FX5UC user's manual (hardware)*. Mitsubishi Electric Corporation.
 
 ### กิจกรรมเสนอแนะ
 1\. นักศึกษาฝึกต่อวงจรเซนเซอร์และอุปกรณ์ขับเคลื่อนกับ PLC เพิ่มเติมในห้องปฏิบัติการ
@@ -281,7 +281,7 @@ Mitsubishi Electric Corporation. (n.d.). *MELSEC iQ-F FX5S/FX5UJJ/FX5UJ/FX5UJC u
 <td><p>บริษัท ออโต ไดแด็กติก จำกัด. (2023). คู่มือ PLC และ GOT เบื้องต้น [เอกสารประกอบการเรียนรู้ PLC]. บริษัท ออโต ไดแด็กติก จำกัด.</p>
 <p>Mitsubishi Electric Corporation. (2015). Your first PLC: สำหรับผู้เริ่มต้นใช้งาน (JY997D57401B) [ฉบับแปลภาษาไทย]. Mitsubishi Electric Corporation.</p>
 <p>Mitsubishi Electric Corporation. (n.d.). FX3S series programmable controllers user's manual: Hardware edition (Manual No. JY997D48601). Mitsubishi Electric Corporation.</p>
-<p>Mitsubishi Electric Corporation. (n.d.). MELSEC iQ-F FX5S/FX5UJJ/FX5UJ/FX5UJC user's manual (hardware). Mitsubishi Electric Corporation.</p></td>
+<p>Mitsubishi Electric Corporation. (n.d.). MELSEC iQ-F FX5S/FX5UJ/FX5U/FX5UC user's manual (hardware). Mitsubishi Electric Corporation.</p></td>
 </tr>
 <tr class="even">
 <td>เอกสารใช้ประกอบ</td>

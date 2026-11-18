@@ -532,4 +532,4 @@ International Electrotechnical Commission. (2013). *Programmable controllers—P
 
 Mitsubishi Electric Corporation. (2015). *Your first PLC: สำหรับผู้เริ่มต้นใช้งาน* (JY997D57401B) \[ฉบับแปลภาษาไทย\]. Mitsubishi Electric Corporation.
 
-Mitsubishi Electric Corporation. (n.d.). *MELSEC iQ-F FX5S/FX5UJJ/FX5UJ/FX5UJC user's manual (hardware)*. Mitsubishi Electric Corporation.
+Mitsubishi Electric Corporation. (n.d.). *MELSEC iQ-F FX5S/FX5UJ/FX5U/FX5UC user's manual (hardware)*. Mitsubishi Electric Corporation.

@@ -103,7 +103,7 @@
 ### บรรณานุกรมประจำหน่วย (เนื้อหา)
 บริษัท ออโต ไดแด็กติก จำกัด. (2023). *คู่มือ PLC และ GOT เบื้องต้น* \[เอกสารประกอบการเรียนรู้ PLC\]. บริษัท ออโต ไดแด็กติก จำกัด.
 
-Mitsubishi Electric Corporation. (n.d.). *MELSEC iQ-F FX5S/FX5UJJ/FX5UJ/FX5UJC user's manual (hardware)*. Mitsubishi Electric Corporation.
+Mitsubishi Electric Corporation. (n.d.). *MELSEC iQ-F FX5S/FX5UJ/FX5U/FX5UC user's manual (hardware)*. Mitsubishi Electric Corporation.
 
 Mitsubishi Electric Corporation. (n.d.). *MELSOFT GX Works3 operating manual* \[Software manual\]. https://www.mitsubishielectric.com/fa/
 
@@ -169,7 +169,7 @@ Mitsubishi Electric Corporation. (n.d.). *MELSOFT GX Works3 operating manual* \[
 <td rowspan="3">สื่อการสอน</td>
 <td>หนังสืออ้างอิง</td>
 <td><p>บริษัท ออโต ไดแด็กติก จำกัด. (2023). คู่มือ PLC และ GOT เบื้องต้น [เอกสารประกอบการเรียนรู้ PLC]. บริษัท ออโต ไดแด็กติก จำกัด.</p>
-<p>Mitsubishi Electric Corporation. (n.d.). MELSEC iQ-F FX5S/FX5UJJ/FX5UJ/FX5UJC user's manual (hardware). Mitsubishi Electric Corporation.</p>
+<p>Mitsubishi Electric Corporation. (n.d.). MELSEC iQ-F FX5S/FX5UJ/FX5U/FX5UC user's manual (hardware). Mitsubishi Electric Corporation.</p>
 <p>Mitsubishi Electric Corporation. (n.d.). MELSOFT GX Works3 operating manual [Software manual]. https://www.mitsubishielectric.com/fa/</p></td>
 </tr>
 <tr class="even">

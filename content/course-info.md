@@ -1286,7 +1286,7 @@ Mitsubishi Electric Corporation. (n.d.). *FX3S series programmable controllers u
 
 Mitsubishi Electric Corporation. (n.d.). *GOT2000 series user's manual* \[Hardware manual\]. https://www.mitsubishielectric.com/fa/
 
-Mitsubishi Electric Corporation. (n.d.). *MELSEC iQ-F FX5S/FX5UJJ/FX5UJ/FX5UJC user's manual (hardware)*. Mitsubishi Electric Corporation.
+Mitsubishi Electric Corporation. (n.d.). *MELSEC iQ-F FX5S/FX5UJ/FX5U/FX5UC user's manual (hardware)*. Mitsubishi Electric Corporation.
 
 Mitsubishi Electric Corporation. (n.d.). *MELSOFT GX Works3 operating manual* \[Software manual\]. https://www.mitsubishielectric.com/fa/
 

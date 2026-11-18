@@ -254,6 +254,6 @@ Dashboard แสดงผลข้อมูลในรูปแบบกรา�
 
 บริษัท ออโต ไดแด็กติก จำกัด. (2023). *คู่มือ PLC และ GOT เบื้องต้น* \[เอกสารประกอบการเรียนรู้ PLC\]. บริษัท ออโต ไดแด็กติก จำกัด.
 
-Mitsubishi Electric Corporation. (n.d.). *MELSEC iQ-F FX5S/FX5UJJ/FX5UJ/FX5UJC user's manual (hardware)*. Mitsubishi Electric Corporation.
+Mitsubishi Electric Corporation. (n.d.). *MELSEC iQ-F FX5S/FX5UJ/FX5U/FX5UC user's manual (hardware)*. Mitsubishi Electric Corporation.
 
 Modbus Organization. (2012). *MODBUS application protocol specification V1.1b3*. https://modbus.org/docs/Modbus_Application_Protocol_V1_1b3.pdf

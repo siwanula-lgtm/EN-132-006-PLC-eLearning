@@ -78,7 +78,7 @@
 
 2\. เครื่องคอมพิวเตอร์
 
-3\. สื่อของจริง ตัวอย่าง PLC รุ่น Mitsubishi FX5UJ, FX5UJJ และอุปกรณ์เชื่อมต่อ
+3\. สื่อของจริง ตัวอย่าง PLC รุ่น Mitsubishi FX5U, FX5UJ และอุปกรณ์เชื่อมต่อ
 
 4\. วีดิทัศน์การติดตั้งและการใช้งาน GX Works3
 
@@ -109,7 +109,7 @@ International Electrotechnical Commission. (2013). *Programmable controllers—P
 
 Mitsubishi Electric Corporation. (2015). *Your first PLC: สำหรับผู้เริ่มต้นใช้งาน* (JY997D57401B) \[ฉบับแปลภาษาไทย\]. Mitsubishi Electric Corporation.
 
-Mitsubishi Electric Corporation. (n.d.). *MELSEC iQ-F FX5S/FX5UJJ/FX5UJ/FX5UJC user's manual (hardware)*. Mitsubishi Electric Corporation.
+Mitsubishi Electric Corporation. (n.d.). *MELSEC iQ-F FX5S/FX5UJ/FX5U/FX5UC user's manual (hardware)*. Mitsubishi Electric Corporation.
 
 Mitsubishi Electric Corporation. (n.d.). *MELSOFT GX Works3 operating manual* \[Software manual\]. https://www.mitsubishielectric.com/fa/
 
@@ -175,7 +175,7 @@ Mitsubishi Electric Corporation. (n.d.). *MELSOFT GX Works3 operating manual* \[
 <td><p>บริษัท ออโต ไดแด็กติก จำกัด. (2023). คู่มือ PLC และ GOT เบื้องต้น [เอกสารประกอบการเรียนรู้ PLC]. บริษัท ออโต ไดแด็กติก จำกัด.</p>
 <p>International Electrotechnical Commission. (2013). Programmable controllers—Part 3: Programming languages (IEC 61131-3:2013, Ed. 3.0). IEC.</p>
 <p>Mitsubishi Electric Corporation. (2015). Your first PLC: สำหรับผู้เริ่มต้นใช้งาน (JY997D57401B) [ฉบับแปลภาษาไทย]. Mitsubishi Electric Corporation.</p>
-<p>Mitsubishi Electric Corporation. (n.d.). MELSEC iQ-F FX5S/FX5UJJ/FX5UJ/FX5UJC user's manual (hardware). Mitsubishi Electric Corporation.</p></td>
+<p>Mitsubishi Electric Corporation. (n.d.). MELSEC iQ-F FX5S/FX5UJ/FX5U/FX5UC user's manual (hardware). Mitsubishi Electric Corporation.</p></td>
 </tr>
 <tr class="even">
 <td>เอกสารใช้ประกอบ</td>

@@ -712,4 +712,4 @@ Mitsubishi Electric Corporation. (2015). *Your first PLC: สำหรับผ�
 
 Mitsubishi Electric Corporation. (n.d.). *FX3S series programmable controllers user's manual: Hardware edition* (Manual No. JY997D48601). Mitsubishi Electric Corporation.
 
-Mitsubishi Electric Corporation. (n.d.). *MELSEC iQ-F FX5S/FX5UJJ/FX5UJ/FX5UJC user's manual (hardware)*. Mitsubishi Electric Corporation.
+Mitsubishi Electric Corporation. (n.d.). *MELSEC iQ-F FX5S/FX5UJ/FX5U/FX5UC user's manual (hardware)*. Mitsubishi Electric Corporation.
