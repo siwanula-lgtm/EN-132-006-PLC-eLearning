@@ -7,3 +7,4 @@ docker-compose.yml
 .dockerignore
 *.md
 !content/**/*.md
+data

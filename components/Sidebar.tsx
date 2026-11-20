@@ -15,6 +15,7 @@ import {
   NotebookText,
 } from "lucide-react";
 import { modules } from "@/lib/modules-data";
+import VisitCounter from "./VisitCounter";
 
 interface SidebarProps {
   isOpen: boolean;
@@ -189,6 +190,10 @@ export default function Sidebar({ isOpen, onClose }: SidebarProps) {
             <SidebarLink href="https://plcopen.org/iec-61131-3" label="IEC 61131-3 (PLCopen)" external onClick={onClose} />
             <SidebarLink href="https://www.modbus.org/specs.php" label="Modbus Specifications" external onClick={onClose} />
           </SidebarSection>
+          <SidebarLink href="/stats" label="📊 สถิติการเข้าใช้เว็บไซต์" isActive={pathname === "/stats"} onClick={onClose} />
+          <div className="mt-3">
+            <VisitCounter compact />
+          </div>
         </nav>
       </aside>
     </>

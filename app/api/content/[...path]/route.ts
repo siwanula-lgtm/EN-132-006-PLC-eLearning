@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { readFile, stat } from "fs/promises";
 import path from "path";
+import { recordDownload } from "@/lib/stats-store";
 
 const CONTENT_DIR = path.join(process.cwd(), "content");
 
@@ -26,7 +27,7 @@ const MIME_TYPES: Record<string, string> = {
 const DOWNLOAD_EXTS = new Set([".csv", ".ipynb"]);
 
 export async function GET(
-  _request: NextRequest,
+  request: NextRequest,
   { params }: { params: { path: string[] } }
 ) {
   try {
@@ -38,6 +39,9 @@ export async function GET(
     }
 
     const fileStat = await stat(resolved);
+    if (fileStat.isFile() && /\.(pdf|html?|docx?|pptx?|xlsx?|csv|ipynb|zip)$/i.test(resolved)) {
+      recordDownload(request.headers.get("user-agent") || "").catch(() => {});
+    }
     if (!fileStat.isFile()) {
       return NextResponse.json({ error: "Not found" }, { status: 404 });
     }

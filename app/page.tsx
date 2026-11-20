@@ -15,6 +15,7 @@ import {
 import { modules, colorMap } from "@/lib/modules-data";
 import { course, clos } from "@/lib/course";
 import ModuleIcon from "@/components/ModuleIcon";
+import VisitCounter from "@/components/VisitCounter";
 
 const totalT = modules.reduce((a, m) => a + m.hoursT, 0);
 const totalP = modules.reduce((a, m) => a + m.hoursP, 0);
@@ -209,6 +210,9 @@ export default function HomePage() {
             </ul>
           </div>
         </div>
+      </div>
+      <div className="mt-8 max-w-sm print:hidden">
+        <VisitCounter />
       </div>
     </div>
   );

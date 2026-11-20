@@ -4,5 +4,10 @@ services:
     image: en-132-006-plc-elearning:latest
     container_name: en-132-006-plc-elearning
     ports:
-      - "3000:3000"
+      - "8036:3000"
     restart: unless-stopped
+    volumes:
+      - visitor-stats:/app/data   # เก็บสถิติการเข้าใช้ถาวร ไม่หายเมื่อ build ใหม่
+
+volumes:
+  visitor-stats:
